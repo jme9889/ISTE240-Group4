@@ -63,7 +63,16 @@ nav {
     background-color: #5ac2ab;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
 }
 .logo {
     display: flex;
+}
+
+.hero {
+    height: 100vh;
+    background-color: red;
+    background-image: url("images/crowd.jpg");
 }
