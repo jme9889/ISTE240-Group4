@@ -29,9 +29,12 @@ body {
 
 /* Two-column layout */
 .two-column {
-    display: flex;
+    display: grid;
+    grid-template-columns: 40% 60%;
     flex-wrap: wrap;
     padding: 20px;
+    width: 80%;
+    margin: auto;
 }
 
 .column {
@@ -51,12 +54,29 @@ body {
     line-height: 1.6;
 }
 
+/* Navigation code */
 .logo-img {
     max-height: 50px;
 }
 
-nav li {
+.nav-items {
+    display: flex;
+    align-items: center;
+    width: 35%;
+    justify-content: flex-end;
+    
+}
+nav a {
+    text-decoration: none;
     display: inline-block;
+    height: 100%;
+    color: white;
+}
+nav p {
+    padding: 0px 20px;
+}
+nav a:hover {
+    background-color: #39907d;
 }
 
 nav {
@@ -71,8 +91,45 @@ nav {
     display: flex;
 }
 
+/* hero  */
 .hero {
     height: 100vh;
     background-color: red;
     background-image: url("images/crowd.jpg");
+}
+
+/* Main content formatting */
+section h1 {
+    color: black;
+}
+
+section h2 {
+    color:#5ac2ab;
+}
+section h3 {
+    color: #ea6c43;
+}
+
+/* Image formatting */
+#bottom-img {
+    max-width: 80%;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
+footer {
+    margin-top: 10vh;
+    height: 40vh;
+    background-color: #7e8083;
+}
+
+footer p {
+    color: white;
+}
+
+footer .container {
+    width: 80%;
+    margin: auto;
+    padding-top: 5vh;
 }
