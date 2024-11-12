@@ -37,6 +37,40 @@ body {
     margin: auto;
 }
 
+.single-column {
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    align-content: center;
+}
+
+.single-column h1 {
+    text-align: center;
+}
+
+.image-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bordered-image {
+    border: 10px solid #0000FF; 
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+.radio-row {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.radio-row label {
+    font-size: 1rem;
+}
+
 .column {
     flex: 1;
     padding: 10px;
