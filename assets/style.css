@@ -27,6 +27,11 @@ body {
     border-radius: 25px;
 }
 
+#side-img {
+    max-height: 1100px;
+    width: auto;
+}
+
 /* Two-column layout */
 .two-column {
     display: grid;
@@ -35,6 +40,7 @@ body {
     padding: 20px;
     width: 80%;
     margin: auto;
+    max-width: 1800px;
 }
 
 .single-column {
@@ -110,6 +116,7 @@ nav a {
     padding: 10px;
     align-items: center;
     justify-content: center;
+    border-radius: 15px;
 }
 nav a:hover {
     background-color: #46b19a;
@@ -160,7 +167,7 @@ header {
     text-shadow: 3px 3px 5px black;
 }
 
-.nav-items #C,.nav-items #R,.nav-items #A,.nav-items #P,.nav-items #Q {
+.nav-items .short-button {
     font-weight: bolder;
     font-size: 40px;
 }
@@ -190,10 +197,9 @@ header {
 
 #quiz-button {
     display: flex;
-    border-left: 2px solid black;
     justify-content: center;
     align-items: center;
-    padding-left: 75px;
+    margin-left: 50px;
 }
 
 /* hero  */
@@ -230,6 +236,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 15px;
 }
 
 #ref-nav {
@@ -242,7 +249,7 @@ footer {
     background-color:#5ac2ab;
     border-radius: 15px;
     padding: 10px;
-    margin: 25px;
+    margin: 35px;
     transition: padding .3s, background-color .3s;
     border: 1px solid black;
 }
@@ -255,7 +262,200 @@ footer {
 #ref-names {
     color: white;
     text-shadow: 3px 5px 8px black;
-    margin: 25px;
+    margin: 35px;
     max-width: 450px;
     text-align: right;
 }
+
+@media only screen and (max-width: 1850px) {
+    .two-column {
+        width: 90%;
+    }
+  }
+
+  @media only screen and (max-width: 1650px) {
+    .two-column {
+        width: 95%;
+    }
+  }
+
+  @media only screen and (max-width: 1550px) {
+    .two-column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+    }
+  }
+
+  @media only screen and (max-width: 1200px) {
+    #bottom-img {
+        max-width: 70%;
+    }
+
+    .full-button {
+        display: none;
+    }
+
+    .nav-items .short-button {
+        font-size: 60px;
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+    #side-img {
+        max-width: 100%;
+    }
+
+    #ref-names {
+        max-width: 350px;
+        font-size: 17px;
+    }
+
+    .logo h1 {
+        font-size: 65px;
+    }
+
+    .nav-items .short-button {
+        font-size: 40px;
+    }
+    
+    #logo-img {
+        height: 135px;
+    }
+
+    #quiz-img {
+        height: 65px;
+    }
+  }
+
+  @media only screen and (max-width: 650px) {
+    .column p {
+        font-size: 15px;
+    }
+
+    #ref-names {
+        max-width: 300px;
+        font-size: 15px;
+    }
+
+    #ref-nav h2{
+        border-radius: 15px;
+        padding: 10px;
+        margin: 5px;
+        transition: padding .3s, background-color .3s;
+        border: 1px solid black;
+        font-size: 17px;
+    }
+
+    .logo h1 {
+        font-size: 45px;
+    }
+
+    .nav-items .short-button {
+        font-size: 35px;
+    }
+    
+    #logo-img {
+        height: 100px;
+    }
+
+    #quiz-img {
+        height: 50px;
+    }
+
+    .logo {
+        margin-bottom: -15px;
+    }
+
+    #head-title #C {
+        margin-left: 15px;
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+    #ref-names {
+        max-width: 200px;
+        font-size: 13px;
+        margin: 10px;
+    }
+
+    .logo h1 {
+        font-size: 40px;
+    }
+
+    .nav-items .short-button {
+        font-size: 35px;
+    }
+
+    .nav-items {
+        margin: 20px;
+    }
+    
+    #logo-img {
+        height: 90px;
+    }
+
+    .logo {
+        margin-bottom: -25px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .two-column {
+        width: 90%;
+    }
+
+    #bottom-img {
+        max-width: 90%;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    #ref-names {
+        max-width: 175px;
+    }
+
+    .logo h1 {
+        font-size: 35px;
+    }
+
+    #head-title #C {
+        margin-left: 10px;
+    }
+
+    .nav-items .short-button {
+        font-size: 30px;
+    }
+
+    #quiz-button {
+        margin-left: 0;
+    }
+
+    .nav-items {
+        margin: 15px;
+    }
+    
+    #logo-img {
+        height: 80px;
+    }
+
+    .logo {
+        margin-bottom: -20px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .two-column {
+        width: 90%;
+    }
+
+    #bottom-img {
+        max-width: 90%;
+    }
+  }
