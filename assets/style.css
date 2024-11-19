@@ -4,6 +4,10 @@ body {
     margin: 0;
 }
 
+#contrast-body {
+    background-color: #E7DAC7;
+}
+
 /* Hero image */
 .hero {
     width: 100%;
