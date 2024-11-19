@@ -244,6 +244,7 @@ footer {
     padding: 10px;
     margin: 25px;
     transition: padding .3s, background-color .3s;
+    border: 1px solid black;
 }
 
 #ref-nav h2:hover {
