@@ -463,3 +463,35 @@ footer {
         max-width: 90%;
     }
   }
+
+  .slider-container input[type="range"] {
+    width: 100px;
+    height: 20px;
+    background: #ea6c43;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.image-container {
+    overflow: hidden;
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.image-container img {
+    width: 1000px; /* change this to match the image we're going to use for the alignment quiz */ 
+    position: absolute;
+    left: 0;
+    transition: left 0.1s ease;
+    border-radius: 10px;
+}
+
+.good-bordered-image {
+    border: 10px solid #ea6c43; 
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+}
