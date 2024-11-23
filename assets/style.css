@@ -177,6 +177,21 @@ body {
     background-color: lightgray;
 }
 
+#prox-submit {
+    font-weight: bold;
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color .3s, padding .3s;
+}
+
+#prox-submit:hover {
+    padding: 5px;
+    background-color: #2affd1;
+}
+
 .change {
     display: flex;
     flex-direction: row;
