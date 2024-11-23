@@ -47,27 +47,41 @@ body {
     max-width: 1800px;
 }
 
-.single-column {
+.single-column, .interaction-panel {
     padding: 20px;
     width: 80%;
     margin: auto;
     align-content: center;
 }
 
-.single-column h1 {
+.single-column h1, .interaction-panel h2, .interaction-panel h3 {
     text-align: center;
 }
 
-.image-section {
+.interaction-panel h3 {
+    color: rgb(95, 95, 95);
+}
+
+.interaction-panel .paragraph {
+    margin-bottom: 0;
+}
+
+.interaction-panel .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.control-section {
     text-align: center;
     margin-top: 20px;
-}
-
-.bordered-image {
-    border: 10px solid #0000FF; 
+    background-color: white;
+    width: 700px;
+    border-radius: 10px;
     padding: 10px;
-    display: block;
-    margin: 0 auto;
+    padding-top: 0px;
+    margin-top: 0;
 }
 
 .radio-row {
@@ -77,8 +91,37 @@ body {
     margin-top: 10px;
 }
 
+.radio-row #peach {
+    background-color: #FFE5B4;
+}
+
+.radio-row #purple {
+    background-color: rgb(57, 0, 57);
+    color: white;
+}
+
+.radio-row #yellow {
+    background-color: yellow;
+}
+
+.radio-row #bold {
+    font-weight: bold;
+}
+
+.radio-row #bolder {
+    font-weight: 900;
+}
+
 .radio-row label {
     font-size: 1rem;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.radio-row label, .radio-row input {
+    cursor: pointer;
 }
 
 .column {
@@ -93,9 +136,24 @@ body {
     border-radius: 10px;
 }
 
+.column .contrast-img {
+    max-width: 350px;
+    border: 1px solid black;
+}
+
+.mini-contrast-img {
+    max-width: 125px;
+    border: 1px solid black;
+    margin-top: 5px;
+}
+
 .column p {
     font-size: 1.2em;
     line-height: 1.6;
+}
+
+.control-section p {
+    font-size: 1.1em;
 }
 
 /* Navigation code */
@@ -221,6 +279,10 @@ section h1 {
 section h2 {
     color:#5ac2ab;
 }
+
+.contrast-h2 {
+    color: #247664;
+}
 section h3 {
     color: #ea6c43;
 }
@@ -269,6 +331,38 @@ footer {
     margin: 35px;
     max-width: 450px;
     text-align: right;
+}
+
+.slider-container input[type="range"] {
+    width: 100px;
+    height: 20px;
+    background: #ea6c43;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.image-container {
+    overflow: hidden;
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.image-container img {
+    width: 1000px;
+    position: absolute;
+    left: 0;
+    transition: left 0.1s ease;
+    border-radius: 10px;
+}
+
+.good-bordered-image {
+    border: 10px solid #ea6c43; 
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
 }
 
 @media only screen and (max-width: 1850px) {
@@ -463,35 +557,3 @@ footer {
         max-width: 90%;
     }
   }
-
-  .slider-container input[type="range"] {
-    width: 100px;
-    height: 20px;
-    background: #ea6c43;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.image-container {
-    overflow: hidden;
-    width: 100%;
-    height: 300px;
-    margin-top: 20px;
-    border: 2px solid #000000;
-    border-radius: 10px;
-}
-
-.image-container img {
-    width: 1000px; /* change this to match the image we're going to use for the alignment quiz */ 
-    position: absolute;
-    left: 0;
-    transition: left 0.1s ease;
-    border-radius: 10px;
-}
-
-.good-bordered-image {
-    border: 10px solid #ea6c43; 
-    padding: 10px;
-    display: block;
-    margin: 0 auto;
-}

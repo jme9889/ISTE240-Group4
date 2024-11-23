@@ -63,7 +63,7 @@
         <div class="single-column">
             <div class="column">
                 <section class="paragraph">
-                    <h1>The CRAPsite - Contrast</h1>
+                    <h2 class="contrast-h2">The CRAPsite - Contrast</h2>
                     <p>Some generic text here about Contrast</p>
                 </section>
 
@@ -77,28 +77,45 @@
                  <img src="../assets/images/bad-contrast.jpg" alt="Flower with Bad Contrast" class="contrast-img">
                  <img src="../assets/images/mid-contrast.png" alt="Cat with Mid Contrast" class="contrast-img">
                  <img src="../assets/images/good-contrast.jpg" alt="Frog with Good Contrast" class="contrast-img">
-
-                <div class="interaction-panel">
-                    
-                </div>
             </div>
             
         </div>
 
-        <div class="single-column">
+        <div class="interaction-panel">
             <div class="column">
-                <section class="intro">
-                    <h1>Contrast Quiz:</h1>
-                    <p>Generic description.</p>
+                <section class="paragraph">
+                    <h2 class="contrast-h2">Fix the Contrast!</h2>
+                    <h3>Use the controls below to fix the contrast of this page!</h3>
                 </section>
 
-                <div class="image-section">
-                    <img src="../assets/images/EXAMPLE_IMAGE.jpg" alt="Example Image" class="bordered-image">
+                <div class="control-section">
+                    <p>Which text color has the best contrast with the background?</p>
                     <div class="radio-row">
-                        <label><input type="radio" name="option" value="1"> Option 1</label>
-                        <label><input type="radio" name="option" value="2"> Option 2</label>
-                        <label><input type="radio" name="option" value="3"> Option 3</label>
-                        <label><input type="radio" name="option" value="4"> Option 4</label>
+                        <label id="peach"><input type="radio" name="option" value="#FFE5B4"> Peach</label>
+                        <label id="purple"><input type="radio" name="option" value="rgb(57, 0, 57)"> Dark Purple</label>
+                        <label id="yellow"><input type="radio" name="option" value="yellow"> Yellow</label>
+                    </div>
+                    <hr>
+
+                    <p>Which font weight has the best contrast for the headers?</p>
+                    <div class="radio-row">
+                        <label id="normal"><input type="radio" name="option" value="normal"> Normal</label>
+                        <label id="bold"><input type="radio" name="option" value="bold"> Bold</label>
+                        <label id="bolder"><input type="radio" name="option" value="bolder"> Bolder</label>
+                    </div>
+                    <hr>
+
+                    <p>Which image has the best contrast with this background?</p>
+                    <div class="radio-row">
+                        <label id="flower"><input type="radio" name="option" value="flower"> Flower
+                            <img src="../assets/images/bad-contrast.jpg" alt="Flower with Bad Contrast" class="mini-contrast-img">
+                        </label>
+                        <label id="cat"><input type="radio" name="option" value="cat"> Cat
+                            <img src="../assets/images/mid-contrast.png" alt="Cat with Mid Contrast" class="mini-contrast-img">
+                        </label>
+                        <label id="frog"><input type="radio" name="option" value="frog"> Frog
+                            <img src="../assets/images/good-contrast.jpg" alt="Frog with Good Contrast" class="mini-contrast-img">
+                        </label>
                     </div>
                 </div>
             </div>
