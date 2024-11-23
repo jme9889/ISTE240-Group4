@@ -62,8 +62,12 @@ body {
     color: rgb(95, 95, 95);
 }
 
-.interaction-panel .paragraph {
+.interaction-panel .paragraph, .bottom-align {
     margin-bottom: 0;
+}
+
+.align-paragraph {
+    margin-bottom: 200px;
 }
 
 .interaction-panel .column {
@@ -143,6 +147,30 @@ body {
 
 .dropdown #white1, .dropdown #white2 {
     color: white;
+}
+
+#al3 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+#al2 {
+    display: flex;
+    position: relative;
+    justify-content: right;
+}
+
+#left1, #left2, #left3 {
+    text-align: left;
+}
+
+#center1, #center2, #center3 {
+    text-align: center;
+}
+
+#right1, #right2, #right3 {
+    text-align: right;
 }
 
 .dropdown {
