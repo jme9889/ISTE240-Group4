@@ -82,6 +82,7 @@ body {
     padding: 10px;
     padding-top: 0px;
     margin-top: 0;
+    border: 2px solid black;
 }
 
 .radio-row {
@@ -118,6 +119,47 @@ body {
     border-radius: 5px;
     display: flex;
     flex-direction: column;
+}
+
+.dropdown #arial1, .dropdown #arial2, .dropdown #arial3, #rep1 {
+    font-family:Arial;
+}
+
+.dropdown #georgia1, .dropdown #georgia2, .dropdown #georgia3, #rep2 {
+    font-family:Georgia;
+}
+
+.dropdown #trebuchet1, .dropdown #trebuchet2, .dropdown #trebuchet3, #rep3 {
+    font-family:'Trebuchet MS';
+}
+
+.dropdown #yellow1, .dropdown #yellow2, #subhead1 {
+    color: yellow;
+}
+
+.dropdown #black1, .dropdown #black2, #subhead2 {
+    color: black;
+}
+
+.dropdown #white1, .dropdown #white2 {
+    color: white;
+}
+
+.dropdown {
+    background-color: lightgray;
+}
+
+.change {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#color-change, #list-change {
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .radio-row label, .radio-row input {
@@ -280,9 +322,11 @@ section h2 {
     color:#5ac2ab;
 }
 
-.contrast-h2 {
+.interaction-h2 {
     color: #247664;
 }
+
+
 section h3 {
     color: #ea6c43;
 }
@@ -428,7 +472,39 @@ footer {
     }
   }
 
+  @media only screen and (max-width: 800px) {
+    .control-section {
+        width: 500px;
+    }
+
+    .control-section h4 {
+        font-size: 14px;
+    }
+
+    .change {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+  }
+
   @media only screen and (max-width: 650px) {
+    .control-section {
+        width: 350px;
+    }
+
+    .control-section h4 {
+        font-size: 13px;
+    }
+
+    .change {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .dropdown {
+        width: 50px;
+    }
+
     .column p {
         font-size: 15px;
     }
@@ -473,6 +549,9 @@ footer {
   }
 
   @media only screen and (max-width: 450px) {
+    .control-section {
+        width: 250px;
+    }
     #ref-names {
         max-width: 200px;
         font-size: 13px;
