@@ -262,6 +262,10 @@ body {
     display: block;
 }
 
+#ordered1, #unordered2 {
+    display: none;
+}
+
 #quiz-p2 {
     display: flex;
     position: relative;

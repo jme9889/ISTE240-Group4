@@ -14,12 +14,12 @@
                 <section class="paragraph">
                     <h2 class="interaction-h2" id="subhead1">A header</h2>
                     <p id="rep2">text</p>
-                    <ul>
+                    <ul id="unordered1">
                         <li>Stuff</li>
                         <li>Stuff</li>
                         <li>Stuff</li>
                     </ul>
-                    <ol>
+                    <ol id="ordered1">
                         <li>Stuff</li>
                         <li>Stuff</li>
                         <li>Stuff</li>
@@ -29,12 +29,12 @@
                 <section class="paragraph">
                     <h2 class="interaction-h2" id="subhead2">A header</h2>
                     <p id="rep3">text</p>
-                    <ol>
+                    <ol id="ordered2">
                         <li>Stuff</li>
                         <li>Stuff</li>
                         <li>Stuff</li>
                     </ol>
-                    <ul>
+                    <ul id="unordered2">
                         <li>Stuff</li>
                         <li>Stuff</li>
                         <li>Stuff</li>
@@ -113,7 +113,7 @@
                     </section>
                     <hr>
 
-                    <p>Fix the repetition for the two list!</p>
+                    <p>Fix the repetition for the two lists!</p>
                     <section class="change" id="list-change">
                         <section class="paragraph-change">
                             <h4>First List:</h4>
@@ -134,7 +134,7 @@
                 </div>
             </div>
         </div>
-    </main>  
+    </main>
 <?php
     include("../assets/inc/footer.inc.php");
 ?>
