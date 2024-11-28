@@ -8,7 +8,7 @@
 ?>
 
 <footer>
-        <a href="<?php echo $assetPath; ?>references/index.html" id="ref-nav">
+        <a href="<?php echo $assetPath; ?>references/index.php" id="ref-nav">
             <h2>References</h2>
         </a>
         <h3 id="ref-names">
