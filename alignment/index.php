@@ -13,12 +13,12 @@
 
                 <section class="align-paragraph">
                     <h2 class="interaction-h2">A header</h2>
-                    <p id="al2">text</p>
+                    <p id="al2">Some more text here about Alignment</p>
                 </section>
 
-                <section id="bottom-align">
+                <section class="align-paragraph">
                     <h2 class="interaction-h2">A header</h2>
-                    <p id="al3">text</p>
+                    <p id="al3">Some more text here about Alignment</p>
                     <img src="#" alt="" id="slider-img">
                 </section>
 
@@ -80,7 +80,7 @@
                 </div>
             </div>
         </div>
-    </main>  
+    </main>
 <?php
     include("../assets/inc/footer.inc.php");
 ?>
