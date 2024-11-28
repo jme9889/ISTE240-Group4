@@ -8,16 +8,25 @@
             <div class="column">
                 <section class="paragraph">
                     <h1>The CRAPsite - Contrast</h1>
-                    <p>Some generic text here about Contrast</p>
+                    <p class="contrast-p">Some generic text here about Contrast</p>
                 </section>
 
                 <section class="paragraph">
                     <h2 class="interaction-h2">A header</h2>
-                    <p>text</p>
+                    <p class="contrast-p">text</p>
                 </section>
 
-                <!-- Paige, please try and get whatever content you write here split into at least 4 or 5 paragraphs.
-                 Just copy/paste the paragraph section above, same kinda style as the homepage -->
+                <section class="paragraph">
+                    <h2 class="interaction-h2">A header</h2>
+                    <p class="contrast-p">text</p>
+                </section>
+
+                <section class="paragraph">
+                    <h2 class="interaction-h2">A header</h2>
+                    <p class="contrast-p">text</p>
+                </section>
+
+                <!-- Paige, please try and get whatever content you write here split into at least 4 or 5 paragraphs -->
 
                  <!--Try and include 1 or 2 more images/graphics from the ones Katiya had-->
 
@@ -39,7 +48,7 @@
 
                 <div class="control-section">
                     <p>Which text color has the best contrast with the background?</p>
-                    <div class="radio-row">
+                    <div class="radio-row" id="color-radio">
                         <label id="peach"><input type="radio" name="option" value="#FFE5B4"> Peach</label>
                         <label id="purple"><input type="radio" name="option" value="rgb(57, 0, 57)"> Dark Purple</label>
                         <label id="yellow"><input type="radio" name="option" value="yellow"> Yellow</label>
