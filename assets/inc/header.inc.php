@@ -1,11 +1,21 @@
 <?php
     $title = "The CRAPsite | " . $pageTitle;
 
+    $bodyID = '';
+
     $assetPath = "";
     if (strpos($_SERVER['REQUEST_URI'], '/alignment/') !== false || strpos($_SERVER['REQUEST_URI'], '/contrast/') !== false ||
         strpos($_SERVER['REQUEST_URI'], '/proximity/') !== false || strpos($_SERVER['REQUEST_URI'], '/quiz/') !== false ||
         strpos($_SERVER['REQUEST_URI'], '/references/') !== false || strpos($_SERVER['REQUEST_URI'], '/repetition/') !== false) {
         $assetPath = "../";
+
+        if (strpos($_SERVER['REQUEST_URI'], '/alignment/') !== false || strpos($_SERVER['REQUEST_URI'], '/contrast/') !== false ||
+        strpos($_SERVER['REQUEST_URI'], '/proximity/') !== false || strpos($_SERVER['REQUEST_URI'], '/repetition/') !== false) {
+            $bodyID = ' id="contrast-body"';
+        }
+        else if(strpos($_SERVER['REQUEST_URI'], '/quiz/') !== false) {
+            $bodyID = ' id="quiz-body"';
+        }
     }
 ?>
 
@@ -15,12 +25,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="assets/style.css" rel="stylesheet">
+    <link href="<?php echo $assetPath; ?>assets/style.css" rel="stylesheet">
     <title>The CRAPsite | <?php echo $title; ?></title>
     <link rel="icon" href="<?php echo $assetPath; ?>assets/images/logo.png" type="image/png">
 </head>
 
-<body>
+<body<?php echo $bodyID; ?>>
     <header>
         <div class="logo">
             <a href="<?php echo $assetPath; ?>index.php">
