@@ -1,103 +1,75 @@
 <?php
-    $pageTitle = "Home Page";
+    $pageTitle = "Contrast";
 
-    include("./assets/inc/header.inc.php");
+    include("../assets/inc/header.inc.php");
 ?>
     <main>
-        <!-- Hero Image Section -->
-        <!-- test -->
-        <div class="hero">
-            <h1>Welcome to CRAP</h1>
-        </div>
-
-        <!-- Two-Column Section -->
-        <div class="two-column">
-            <div class="column">
-                <img src="assets/images/home1.jpg" alt="Image that shows the 4 parts of CRAP- Contrast, Repition, Allignment, Position." id="side-img">
-            </div>
-
+        <div class="single-column">
             <div class="column">
                 <section class="paragraph">
-                    <h1>Welcome to the CRAPsite</h1>
-                    <p> This website has been created to teach users about the CRAP principles as well as 
-                        guide them through using these principles in real time. We have implemented a quiz 
-                        portion so users could test their knowledge and use those results to know which factors 
-                        they should look back at. We have added images as well as videos to tailor to different 
-                        kinds of learning styles.   </p>
-                </section>
-
-                <!-- An overview of CRAP, what it is, and a basic mention of each principle. -->
-                <section class="paragraph">
-                    <h2>What is CRAP?</h2>
-
-                    <p>C.R.A.P. stands for Contrast, Repetition, Alignment, and Proximity—four key principles of design
-                        outlined by Robin Williams.
-                        When designing any visual material, such as a flyer, business card, or newsletter, it's
-                        important to
-                        consider these principles
-                        to create a balanced and effective layout.
-                    </p>
-
-                </section>
-                <section class="paragraph">
-                    <h3>Contrast</h3>
-                    <p>Contrast forms the foundation of effective design. By varying elements like color, size,
-                        typography,
-                        and other visual
-                        aspects, you create emphasis that directs the viewer's attention and enhances their
-                        understanding of
-                        the content.</p>
+                    <h1>The CRAPsite - Contrast</h1>
+                    <p>Some generic text here about Contrast</p>
                 </section>
 
                 <section class="paragraph">
-                    <h3>Repetition</h3>
-                    <p>Repetition involves deliberately reusing certain design elements to establish consistency, unity,
-                        and
-                        coherence. This
-                        technique helps users become familiar with your design and strengthens your brand identity. You
-                        can
-                        apply repetition
-                        to various components such as colors, fonts, shapes, and patterns.</p>
-                </section>
-                <section class="paragraph">
-                    <h3>Alignment</h3>
-                    <p>Alignment refers to the arrangement of elements in your design so that they line up in a visually
-                        organized and logical
-                        manner. Proper alignment helps users follow the flow of information, creating a clean and
-                        structured
-                        look that is easy
-                        to navigate.</p>
+                    <h2 class="interaction-h2">A header</h2>
+                    <p>text</p>
                 </section>
 
-                <section class="paragraph">
-                    <h3>Proximity</h3>
-                    <p>Proximity involves positioning elements in your design to highlight their relationships and
-                        create a
-                        sense of order. By
-                        grouping related items together and spacing out those that are unrelated, you help users
-                        navigate
-                        the design more intuitively
-                        and locate the information they need with ease.
-                    </p>
-                </section>
-                <section class="paragraph">
-                    <h2>Using this Website</h2>
-                    <p>Each page offers an explanation of a specific design principle, along with interactive features
-                        that
-                        let you adjust the style
-                        based on that principle. The quiz page serves as a way to test your understanding by allowing
-                        you to
-                        modify these design elements,
-                        and then it evaluates how effectively you've applied the principles.</p>
-                </section>
+                <!-- Paige, please try and get whatever content you write here split into at least 4 or 5 paragraphs.
+                 Just copy/paste the paragraph section above, same kinda style as the homepage -->
 
+                 <!--Try and include 1 or 2 more images/graphics from the ones Katiya had-->
+
+                 <!-- These are the images I plan to use, it's just gonna have one image visible at a time in the end. 
+                  Put these images with whatever paragraph you have mentioning color contrast for images-->
+                 <img src="../assets/images/bad-contrast.jpg" alt="Flower with Bad Contrast" class="contrast-img">
+                 <img src="../assets/images/mid-contrast.png" alt="Cat with Mid Contrast" class="contrast-img">
+                 <img src="../assets/images/good-contrast.jpg" alt="Frog with Good Contrast" class="contrast-img">
             </div>
-
+            
         </div>
-        <!-- I want this one across the bottom instead of in a column -->
-        <img src="assets/images/home2.jpg"
-            alt="Image that shows the 4 CRAP principles with different color and placement of circles." id="bottom-img">
-    </main>
+
+        <div class="interaction-panel">
+            <div class="column">
+                <section class="paragraph">
+                    <h2 class="interaction-h2">Fix the Contrast!</h2>
+                    <h3>Use the controls below to fix the contrast of this page!</h3>
+                </section>
+
+                <div class="control-section">
+                    <p>Which text color has the best contrast with the background?</p>
+                    <div class="radio-row">
+                        <label id="peach"><input type="radio" name="option" value="#FFE5B4"> Peach</label>
+                        <label id="purple"><input type="radio" name="option" value="rgb(57, 0, 57)"> Dark Purple</label>
+                        <label id="yellow"><input type="radio" name="option" value="yellow"> Yellow</label>
+                    </div>
+                    <hr>
+
+                    <p>Which font weight has the best contrast for the headers?</p>
+                    <div class="radio-row">
+                        <label id="normal"><input type="radio" name="option" value="normal"> Normal</label>
+                        <label id="bold"><input type="radio" name="option" value="bold"> Bold</label>
+                        <label id="bolder"><input type="radio" name="option" value="bolder"> Bolder</label>
+                    </div>
+                    <hr>
+
+                    <p>Which image has the best contrast with this background?</p>
+                    <div class="radio-row">
+                        <label id="flower"><input type="radio" name="option" value="flower"> Flower
+                            <img src="../assets/images/bad-contrast.jpg" alt="Flower with Bad Contrast" class="mini-contrast-img">
+                        </label>
+                        <label id="cat"><input type="radio" name="option" value="cat"> Cat
+                            <img src="../assets/images/mid-contrast.png" alt="Cat with Mid Contrast" class="mini-contrast-img">
+                        </label>
+                        <label id="frog"><input type="radio" name="option" value="frog"> Frog
+                            <img src="../assets/images/good-contrast.jpg" alt="Frog with Good Contrast" class="mini-contrast-img">
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>  
 <?php
-    include("./assets/inc/footer.inc.php");
+    include("../assets/inc/footer.inc.php");
 ?>

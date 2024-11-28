@@ -1,103 +1,123 @@
 <?php
-    $pageTitle = "Home Page";
+    $pageTitle = "Proximity";
 
-    include("./assets/inc/header.inc.php");
+    include("../assets/inc/header.inc.php");
 ?>
     <main>
-        <!-- Hero Image Section -->
-        <!-- test -->
-        <div class="hero">
-            <h1>Welcome to CRAP</h1>
-        </div>
-
-        <!-- Two-Column Section -->
-        <div class="two-column">
-            <div class="column">
-                <img src="assets/images/home1.jpg" alt="Image that shows the 4 parts of CRAP- Contrast, Repition, Allignment, Position." id="side-img">
-            </div>
-
+        <div class="single-column">
             <div class="column">
                 <section class="paragraph">
-                    <h1>Welcome to the CRAPsite</h1>
-                    <p> This website has been created to teach users about the CRAP principles as well as 
-                        guide them through using these principles in real time. We have implemented a quiz 
-                        portion so users could test their knowledge and use those results to know which factors 
-                        they should look back at. We have added images as well as videos to tailor to different 
-                        kinds of learning styles.   </p>
-                </section>
-
-                <!-- An overview of CRAP, what it is, and a basic mention of each principle. -->
-                <section class="paragraph">
-                    <h2>What is CRAP?</h2>
-
-                    <p>C.R.A.P. stands for Contrast, Repetition, Alignment, and Proximity—four key principles of design
-                        outlined by Robin Williams.
-                        When designing any visual material, such as a flyer, business card, or newsletter, it's
-                        important to
-                        consider these principles
-                        to create a balanced and effective layout.
-                    </p>
-
-                </section>
-                <section class="paragraph">
-                    <h3>Contrast</h3>
-                    <p>Contrast forms the foundation of effective design. By varying elements like color, size,
-                        typography,
-                        and other visual
-                        aspects, you create emphasis that directs the viewer's attention and enhances their
-                        understanding of
-                        the content.</p>
+                    <h1>The CRAPsite - Proximity</h1>
+                    <p>Some generic text here about Proximity</p>
+                    <img src="#" alt="1" class="prox-graphic">
+                    <img src="#" alt="2" class="prox-graphic">
+                    <img src="#" alt="3" class="prox-graphic">
+                    <img src="#" alt="4" class="prox-graphic">
                 </section>
 
                 <section class="paragraph">
-                    <h3>Repetition</h3>
-                    <p>Repetition involves deliberately reusing certain design elements to establish consistency, unity,
-                        and
-                        coherence. This
-                        technique helps users become familiar with your design and strengthens your brand identity. You
-                        can
-                        apply repetition
-                        to various components such as colors, fonts, shapes, and patterns.</p>
-                </section>
-                <section class="paragraph">
-                    <h3>Alignment</h3>
-                    <p>Alignment refers to the arrangement of elements in your design so that they line up in a visually
-                        organized and logical
-                        manner. Proper alignment helps users follow the flow of information, creating a clean and
-                        structured
-                        look that is easy
-                        to navigate.</p>
+                    <h2 class="interaction-h2">A header</h2>
+                    <p>text</p>
+                    <img src="#" alt="1" class="prox-graphic">
+                    <img src="#" alt="2" class="prox-graphic">
+                    <img src="#" alt="3" class="prox-graphic">
+                    <img src="#" alt="4" class="prox-graphic">
                 </section>
 
                 <section class="paragraph">
-                    <h3>Proximity</h3>
-                    <p>Proximity involves positioning elements in your design to highlight their relationships and
-                        create a
-                        sense of order. By
-                        grouping related items together and spacing out those that are unrelated, you help users
-                        navigate
-                        the design more intuitively
-                        and locate the information they need with ease.
-                    </p>
-                </section>
-                <section class="paragraph">
-                    <h2>Using this Website</h2>
-                    <p>Each page offers an explanation of a specific design principle, along with interactive features
-                        that
-                        let you adjust the style
-                        based on that principle. The quiz page serves as a way to test your understanding by allowing
-                        you to
-                        modify these design elements,
-                        and then it evaluates how effectively you've applied the principles.</p>
+                    <h2 class="interaction-h2">A header</h2>
+                    <p>text</p>
+                    <img src="#" alt="1" class="prox-graphic">
+                    <img src="#" alt="2" class="prox-graphic">
+                    <img src="#" alt="3" class="prox-graphic">
+                    <img src="#" alt="4" class="prox-graphic">
                 </section>
 
+                <section class="paragraph">
+                    <h2 class="interaction-h2">A header</h2>
+                    <p>text</p>
+                    <img src="#" alt="1" class="prox-graphic">
+                    <img src="#" alt="2" class="prox-graphic">
+                    <img src="#" alt="3" class="prox-graphic">
+                    <img src="#" alt="4" class="prox-graphic">
+                </section>
+
+                <!-- Paige, please try and get whatever content you write here split into 4 paragraphs (keep the containers below). -->
+
+                 <!--Include 4 images/videos from the ones Katiya had. I have the placeholders there already for them, just use those
+                 spots. If you add videos/s, replace the placeholder but keep the class name. All 4 images are on each paragraph b/c
+                 the user will choose which ones are visible.-->
             </div>
-
         </div>
-        <!-- I want this one across the bottom instead of in a column -->
-        <img src="assets/images/home2.jpg"
-            alt="Image that shows the 4 CRAP principles with different color and placement of circles." id="bottom-img">
-    </main>
+
+        <div class="interaction-panel">
+            <div class="column">
+                <section class="paragraph">
+                    <h2 class="interaction-h2">Fix the Proximity!</h2>
+                    <h3>Use the controls below to fix the proximity of this page!</h3>
+                </section>
+
+                <div class="control-section">
+                    <form action="index.html" method="post">
+                        <p>Choose one spot for each image (no repeats) for the best proximity!</p>
+                        <img src="#" alt="1" class="prox-graphic">
+
+                        <section class="image-change">
+                            <h4>First Image:</h4>
+                            <select class="dropdown" id="img-prox1" name="img-prox1">
+                                <option value="first" id="first1">First</option>
+                                <option value="second" id="second1">Second</option>
+                                <option value="third" id="third1">Third</option>
+                                <option value="fourth" id="fourth1">Fourth</option>
+                            </select>
+                        </section>
+                        <hr>
+    
+                        <img src="#" alt="2" class="prox-graphic">
+
+                        <section class="image-change">
+                            <h4>Second Image:</h4>
+                            <select class="dropdown" id="img-prox2" name="img-prox2">
+                                <option value="second" id="second2">Second</option>
+                                <option value="third" id="third2">Third</option>
+                                <option value="fourth" id="fourth2">Fourth</option>
+                                <option value="first" id="first2">First</option>
+                            </select>
+                        </section>
+                        <hr>
+    
+                        <img src="#" alt="3" class="prox-graphic">
+
+                        <section class="image-change">
+                            <h4>Third Image:</h4>
+                            <select class="dropdown" id="img-prox3" name="img-prox3">
+                                <option value="third" id="third3">Third</option>
+                                <option value="fourth" id="fourth3">Fourth</option>
+                                <option value="first" id="first3">First</option>
+                                <option value="second" id="second3">Second</option>
+                            </select>
+                        </section>
+                        <hr>
+    
+                        <img src="#" alt="4" class="prox-graphic">
+
+                        <section class="image-change">
+                            <h4>Fourth Image:</h4>
+                            <select class="dropdown" id="img-prox4" name="img-prox4">
+                                <option value="fourth" id="fourth3">Fourth</option>
+                                <option value="first" id="first3">First</option>
+                                <option value="second" id="second3">Second</option>
+                                <option value="third" id="third3">Third</option>
+                            </select>
+                        </section>
+                        <hr>
+
+                        <button type="submit" class="submit">Submit my Configuration!</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>  
 <?php
-    include("./assets/inc/footer.inc.php");
+    include("../assets/inc/footer.inc.php");
 ?>
