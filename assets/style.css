@@ -254,6 +254,14 @@ body {
     background-color: gray;
 }
 
+.prox-graphic {
+    display: none;
+}
+
+#prox1-1, #prox2-2, #prox3-3, #prox4-4 {
+    display: block;
+}
+
 #quiz-p2 {
     display: flex;
     position: relative;
