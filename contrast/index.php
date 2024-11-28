@@ -32,9 +32,9 @@
 
                  <!-- These are the images I plan to use, it's just gonna have one image visible at a time in the end. 
                   Put these images with whatever paragraph you have mentioning color contrast for images-->
-                 <img src="../assets/images/bad-contrast.jpg" alt="Flower with Bad Contrast" class="contrast-img">
-                 <img src="../assets/images/mid-contrast.png" alt="Cat with Mid Contrast" class="contrast-img">
-                 <img src="../assets/images/good-contrast.jpg" alt="Frog with Good Contrast" class="contrast-img">
+                 <img src="../assets/images/bad-contrast.jpg" alt="Flower with Bad Contrast" class="contrast-img" id="flower-big">
+                 <img src="../assets/images/mid-contrast.png" alt="Cat with Mid Contrast" class="contrast-img" id="cat-big">
+                 <img src="../assets/images/good-contrast.jpg" alt="Frog with Good Contrast" class="contrast-img" id="frog-big">
             </div>
             
         </div>
@@ -56,10 +56,10 @@
                     <hr>
 
                     <p>Which font weight has the best contrast for the headers?</p>
-                    <div class="radio-row">
+                    <div class="radio-row" id="bold-radio">
                         <label id="normal"><input type="radio" name="option" value="normal"> Normal</label>
                         <label id="bold"><input type="radio" name="option" value="bold"> Bold</label>
-                        <label id="bolder"><input type="radio" name="option" value="bolder"> Bolder</label>
+                        <label id="bolder"><input type="radio" name="option" value="900"> Bolder</label>
                     </div>
                     <hr>
 
@@ -78,7 +78,7 @@
                 </div>
             </div>
         </div>
-    </main>  
+    </main> 
 <?php
     include("../assets/inc/footer.inc.php");
 ?>
