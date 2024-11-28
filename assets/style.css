@@ -226,8 +226,20 @@ body {
     font-family: 'Gill Sans';
 }
 
+#quiz-p1, #quiz-p2, #quiz-p3, #quiz-p4 {
+    color: greenyellow;
+}
+
 #quiz-text-font1, #quiz-text-font2, #quiz-text-font3, #quiz-text-font4 {
     max-width: 100px;
+}
+
+.quiz-graphic {
+    display: none;
+}
+
+#quiz4-1, #quiz3-2, #quiz2-3, #quiz1-4 {
+    display: block;
 }
 
 #h-white1, #h-white2, #h-white3, #h-white4, #quiz-h1 {
@@ -278,6 +290,12 @@ body {
     justify-content: right;
 }
 
+#quiz-p1, #quiz-p4 {
+    display: flex;
+    position: relative;
+    justify-content: left;
+}
+
 #quiz-left1, #quiz-left2, #quiz-left3, #quiz-left4 {
     text-align: left;
 }
@@ -290,7 +308,7 @@ body {
     text-align: right;
 }
 
-.dropdown {
+.dropdown, .quiz-dropdown {
     background-color: lightgray;
 }
 
@@ -492,11 +510,6 @@ section h2 {
     color: #247664;
 }
 
-.quiz-h2 {
-    color: #502476;
-}
-
-
 section h3 {
     color: #ea6c43;
 }
@@ -677,7 +690,7 @@ footer {
         padding-right: 2%;
     }
 
-    .dropdown {
+    .dropdown, .quiz-dropdown {
         width: 50px;
     }
 
