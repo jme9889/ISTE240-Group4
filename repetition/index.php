@@ -1,64 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+    $pageTitle = "Home Page";
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="assets/style.css" rel="stylesheet">
-    <title>The CRAPsite | Home Page</title>
-    <link rel="icon" href="assets/images/logo.png" type="image/png">
-</head>
-
-<body>
-    <header>
-        <div class="logo">
-            <a href="index.html">
-                <img src="assets/images/logo.png" alt="CRAP Logo" id="logo-img">
-            </a>
-            <h1 id="head-title">The
-                <div id="C">C</div>
-                <div id="R">R</div>
-                <div id="A">A</div>
-                <div id="P">P</div>
-                site
-            </h1>
-        </div>
-        <nav>
-            <div class="nav-items">
-                <a href="contrast/index.html">
-                    <h2 class="nav-button">
-                        <div class="short-button" id="C">C</div>
-                        <div class="full-button">ontrast</div>
-                    </h2>
-                </a>
-                <a href="repetition/index.html">
-                    <h2 class="nav-button">
-                        <div class="short-button" id="R">R</div>
-                        <div class="full-button">epetition</div>
-                    </h2>
-                </a>
-                <a href="alignment/index.html">
-                    <h2 class="nav-button">
-                        <div class="short-button" id="A">A</div>
-                        <div class="full-button">lignment</div>
-                    </h2>
-                </a>
-                <a href="proximity/index.html">
-                    <h2 class="nav-button">
-                        <div class="short-button" id="P">P</div>
-                        <div class="full-button">roximity</div>
-                    </h2>
-                </a>
-                <a href="quiz/index.html" id="quiz-button">
-                    <img src="assets/images/quiz.png" alt="Quiz" id="quiz-img">
-                    <h2 class="nav-button">
-                        <div class="short-button" id="Q">Q</div>
-                        <div class="full-button">uiz</div>
-                    </h2>
-                </a>
-            </div>
-        </nav>
-    </header>
+    include("./assets/inc/header.inc.php");
+?>
     <main>
         <!-- Hero Image Section -->
         <!-- test -->
@@ -154,15 +98,6 @@
         <img src="assets/images/home2.jpg"
             alt="Image that shows the 4 CRAP principles with different color and placement of circles." id="bottom-img">
     </main>
-    <footer>
-        <a href="references/index.html" id="ref-nav">
-            <h2>References</h2>
-        </a>
-        <h3 id="ref-names">
-            &copy Johnathan Eschbacher, Paige Bohman, Garrett Recker, Jonathan Unger, Katiya Zawrotny
-        </h3>
-    </footer>
-    <script src="assets/scripts.js"></script>
-</body>
-
-</html>
+<?php
+    include("./assets/inc/footer.inc.php");
+?>
