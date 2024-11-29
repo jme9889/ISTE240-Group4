@@ -49,29 +49,29 @@
                 <div class="control-section">
                     <p>Which text color has the best contrast with the background?</p>
                     <div class="radio-row" id="color-radio">
-                        <label id="peach"><input type="radio" name="option" value="#FFE5B4"> Peach</label>
-                        <label id="purple"><input type="radio" name="option" value="rgb(57, 0, 57)"> Dark Purple</label>
-                        <label id="yellow"><input type="radio" name="option" value="yellow"> Yellow</label>
+                        <label id="peach"><input type="radio" name="color-options" value="#FFE5B4"> Peach</label>
+                        <label id="purple"><input type="radio" name="color-options" value="rgb(57, 0, 57)"> Dark Purple</label>
+                        <label id="yellow"><input type="radio" name="color-options" value="yellow"> Yellow</label>
                     </div>
                     <hr>
 
                     <p>Which font weight has the best contrast for the headers?</p>
                     <div class="radio-row" id="bold-radio">
-                        <label id="normal"><input type="radio" name="option" value="normal"> Normal</label>
-                        <label id="bold"><input type="radio" name="option" value="bold"> Bold</label>
-                        <label id="bolder"><input type="radio" name="option" value="900"> Bolder</label>
+                        <label id="normal"><input type="radio" name="bold-options" value="normal"> Normal</label>
+                        <label id="bold"><input type="radio" name="bold-options" value="bold"> Bold</label>
+                        <label id="bolder"><input type="radio" name="bold-options" value="900"> Bolder</label>
                     </div>
                     <hr>
 
                     <p>Which image has the best contrast with this background?</p>
                     <div class="radio-row">
-                        <label id="flower"><input type="radio" name="option" value="flower"> Flower
+                        <label id="flower"><input type="radio" name="image-options" value="flower"> Flower
                             <img src="../assets/images/bad-contrast.jpg" alt="Flower with Bad Contrast" class="mini-contrast-img">
                         </label>
-                        <label id="cat"><input type="radio" name="option" value="cat"> Cat
+                        <label id="cat"><input type="radio" name="image-options" value="cat"> Cat
                             <img src="../assets/images/mid-contrast.png" alt="Cat with Mid Contrast" class="mini-contrast-img">
                         </label>
-                        <label id="frog"><input type="radio" name="option" value="frog"> Frog
+                        <label id="frog"><input type="radio" name="image-options" value="frog"> Frog
                             <img src="../assets/images/good-contrast.jpg" alt="Frog with Good Contrast" class="mini-contrast-img">
                         </label>
                     </div>

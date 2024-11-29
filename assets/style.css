@@ -62,6 +62,14 @@ body {
     color: rgb(57, 0, 57);
 }
 
+#sub-p {
+    font-size: 0.9rem;
+}
+
+#reference-body {
+    margin: 25px
+}
+
 .single-column h1, .interaction-panel h2, .interaction-panel h3 {
     text-align: center;
 }
