@@ -7,7 +7,7 @@
         <div class="single-column">
             <div class="column">
                 <section class="align-paragraph">
-                    <h1>The CRAPsite | Alignment</h1>
+                    <h1>The CRAPsite - Alignment</h1>
 <div class="align-container"id="al1">
                         <p  class="align-p">Alignment is used to set an invisible framework to create a sense of order within designs. Alignment creates meaningful and intentional relationships between elements to group them together and create visual connections. When elements are properly grouped, they allow the user to navigate the site and process information more easily. This can vary based on target audience, such as the difference between a desktop display and a mobile display, or even considering languages that read right-to-left instead of left-to-right. The power of alignment lies in its ability to create structure without drawing attention to itself; when done correctly, it creates a seamless experience that feels natural and intuitive to the user.</p>
     
