@@ -1,8 +1,16 @@
+/**
+ * Date: 12/2/24
+ * ISTE-240 Group 4: Johnathan Eschbacher, Paige Bohman, Garrett Recker, Jonathan Unger, Katiya Zawrotny
+ */
+// run on content load
 document.addEventListener('DOMContentLoaded', () => {
     // Adjust font style for body paragraphs
+
+    // grab select input and body paragraphs
     const fontDropdowns = document.querySelectorAll('[id^="text-font"]');
     const paragraphClasses = ['rep1', 'rep2', 'rep3'];
 
+    // change fonts based on input value
     fontDropdowns.forEach((dropdown, index) => {
         dropdown.addEventListener('change', () => {
             const selectedFont = dropdown.value;
@@ -14,9 +22,12 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Adjust color for subheaders
+
+    // grab color input and subheaders
     const colorDropdowns = [document.getElementById('color1'), document.getElementById('color2')];
     const subheaders = [document.getElementById('subhead1'), document.getElementById('subhead2')];
 
+    // change subheader color based on input
     colorDropdowns.forEach((dropdown, index) => {
         dropdown.addEventListener('change', () => {
             const selectedColor = dropdown.value;
@@ -27,6 +38,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Adjust list types shown
+
+    // grab list input and 4 lists
     const listDropdowns = [document.getElementById('list1'), document.getElementById('list2')];
     const lists = [
         {
@@ -39,6 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     ];
 
+    // change visibility of lists based on input
     listDropdowns.forEach((dropdown, index) => {
         dropdown.addEventListener('change', () => {
             const selectedList = dropdown.value;

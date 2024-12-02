@@ -1,3 +1,7 @@
+<!--
+Date: 12/2/24
+ISTE-240 Group 4: Johnathan Eschbacher, Paige Bohman, Garrett Recker, Jonathan Unger, Katiya Zawrotny
+-->
 <?php
     $title = "The CRAPsite | " . $pageTitle;
 

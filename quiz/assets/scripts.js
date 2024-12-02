@@ -1,7 +1,15 @@
+/**
+ * Date: 12/2/24
+ * ISTE-240 Group 4: Johnathan Eschbacher, Paige Bohman, Garrett Recker, Jonathan Unger, Katiya Zawrotny
+ */
+// run on content load
 document.addEventListener("DOMContentLoaded", () => {
     // Adjust color of p tags for paragraphs
+
+    // grab input from radio
     const colorRadios = document.querySelectorAll("input[name='color-options']");
     colorRadios.forEach(radio => {
+        // change color for all body paragraph p tags
         radio.addEventListener("change", () => {
             const colorValue = radio.value;
             const paragraphs = document.querySelectorAll("#quiz-p1, #quiz-p2, #quiz-p3, #quiz-p4");
@@ -12,9 +20,12 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     // Adjust boldness for headers
+
+    // grab subheaders and font weight input
     const headerElements = document.querySelectorAll('.quiz-subhead');
     const boldRadioButtons = document.querySelectorAll('#quiz-font-weight input[type="radio"]');
 
+    // set subheader font weight to checked value
     if (headerElements && boldRadioButtons) {
         const initialChecked = document.querySelector('#quiz-font-weight input[type="radio"]:checked');
         if (initialChecked) {
@@ -34,6 +45,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // Adjust font style for p tags
+
+    // grab dropdown sections for font style
     const fontSelectors = document.querySelectorAll(".dropdown");
     fontSelectors.forEach(select => {
         select.addEventListener("change", (event) => {
@@ -41,6 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const targetId = event.target.id;
             let targetParagraph;
 
+            // grab correct body paragraph
             if (targetId.includes("1")) {
                 targetParagraph = document.getElementById("quiz-p1");
             } else if (targetId.includes("2")) {
@@ -51,6 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 targetParagraph = document.getElementById("quiz-p4");
             }
 
+            // change font of specified paragraph
             if (targetParagraph) {
                 targetParagraph.style.fontFamily = selectedFont;
             }
@@ -58,6 +73,8 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     // Adjust color of headers for each paragraph
+
+    //grab dropdown for header color input
     const colorSelectors = document.querySelectorAll(".dropdown");
     colorSelectors.forEach(select => {
         select.addEventListener("change", (event) => {
@@ -65,6 +82,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const targetId = event.target.id;
             let targetHeader;
 
+            // grab the right header
             if (targetId.includes("1")) {
                 targetHeader = document.getElementById("quiz-h1");
             } else if (targetId.includes("2")) {
@@ -75,6 +93,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 targetHeader = document.getElementById("quiz-h4");
             }
 
+            // set color of specified header
             if (targetHeader) {
                 targetHeader.style.color = selectedColor;
             }
@@ -82,6 +101,8 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     // Adjust alignment of text for each body paragraph
+
+    // grab dropdown for text alignment
     const alignmentSelectors = document.querySelectorAll(".dropdown");
     alignmentSelectors.forEach(select => {
         select.addEventListener("change", (event) => {
@@ -89,6 +110,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const targetId = event.target.id;
             let targetParagraph;
 
+            // grab the right body paragraph
             if (targetId.includes("1")) {
                 targetParagraph = document.getElementById("quiz-p1");
             } else if (targetId.includes("2")) {
@@ -99,6 +121,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 targetParagraph = document.getElementById("quiz-p4");
             }
 
+            // set alignment for specified paragraph
             if (targetParagraph) {
                 targetParagraph.style.display = 'flex';
                 targetParagraph.style.justifyContent = justifyValue;
@@ -107,9 +130,12 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     // Adjust margin between body paragraphs
+
+    // grab margin slider and it's value
     const marginSlider = document.getElementById("quiz-margin-slider");
     const marginDisplay = document.getElementById("quiz-slider-value");
     marginSlider.addEventListener("input", () => {
+        // change bottom margin for paragraphs to input value
         const marginValue = marginSlider.value;
         marginDisplay.textContent = marginValue;
         const paragraphs = document.querySelectorAll(".quiz-paragraph");
@@ -119,15 +145,19 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     // Adjust position of images
+
+    // grab from, image dropdowns, and paragraph sections
     const form = document.querySelector('form');
     const dropdowns = document.querySelectorAll('.quiz-dropdown');
     const paragraphs = document.querySelectorAll('.quiz-paragraph');
 
+    // on submit
     form.addEventListener('submit', (e) => {
         e.preventDefault();
         const selectedValues = new Set();
         let hasDuplicates = false;
 
+        // ensure no duplicate image locations are submitted
         dropdowns.forEach((dropdown) => {
             const value = dropdown.value;
 
@@ -142,6 +172,7 @@ document.addEventListener("DOMContentLoaded", () => {
             return;
         }
 
+        // remove display for all images
         paragraphs.forEach((paragraph) => {
             const images = paragraph.querySelectorAll('.quiz-graphic');
             images.forEach((image) => {
@@ -149,6 +180,7 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         });
 
+        // show specified images based on input
         dropdowns.forEach((dropdown, index) => {
             const selectedValue = dropdown.value;
             const imageId = `quiz${index + 1}-${selectedValue === 'first' ? 1 : selectedValue === 'second' ? 2 : selectedValue === 'third' ? 3 : 4}`;
@@ -161,9 +193,11 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
+// function called onSubmit to grade style properties
 function gradeQuiz(event) {
     event.preventDefault();
 
+    // default scores for each section
     let contrastScore = 0;
     let repetitionScore = 0;
     let alignmentScore = 0;
@@ -230,7 +264,7 @@ function gradeQuiz(event) {
     }
     
 
-    // Proximity scoring (Image Placement)
+    // Proximity scoring
     const imageSelects = ["quiz-img-prox1", "quiz-img-prox2", "quiz-img-prox3", "quiz-img-prox4"];
     let selectionOrder = [];
     imageSelects.forEach((id) => {
@@ -249,6 +283,7 @@ function gradeQuiz(event) {
     const previousGrades = document.querySelectorAll(".quiz-grade");
     previousGrades.forEach(grade => grade.remove());
 
+    // Create quiz-grade element to display final grades
     const gradeElement = document.createElement("div");
     gradeElement.classList.add("quiz-grade");
     gradeElement.innerHTML = `
