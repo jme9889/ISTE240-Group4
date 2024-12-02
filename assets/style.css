@@ -143,15 +143,15 @@ body {
     flex-direction: column;
 }
 
-.dropdown #arial1, .dropdown #arial2, .dropdown #arial3, #rep1 {
+.dropdown #arial1, .dropdown #arial2, .dropdown #arial3, .rep1 {
     font-family:Arial;
 }
 
-.dropdown #georgia1, .dropdown #georgia2, .dropdown #georgia3, #rep2 {
+.dropdown #georgia1, .dropdown #georgia2, .dropdown #georgia3, .rep2 {
     font-family:Georgia;
 }
 
-.dropdown #trebuchet1, .dropdown #trebuchet2, .dropdown #trebuchet3, #rep3 {
+.dropdown #trebuchet1, .dropdown #trebuchet2, .dropdown #trebuchet3, .rep3 {
     font-family:'Trebuchet MS';
 }
 
@@ -388,6 +388,11 @@ body {
     border: 1px solid black;
 }
 
+.long-img {
+    max-width: 500px;
+    border: 1px solid black;
+}
+
 .paragraph-vid {
     border-radius: 15px;
     border: 1px solid black;
@@ -403,7 +408,7 @@ body {
     margin-top: 5px;
 }
 
-.column p {
+.column p, .column ul, .column ol {
     font-size: 1.2em;
     line-height: 1.6;
 }
@@ -732,7 +737,7 @@ footer {
         width: 50px;
     }
 
-    .column p {
+    .column p, .column ul, .column ol {
         font-size: 15px;
     }
 

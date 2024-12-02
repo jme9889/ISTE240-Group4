@@ -11,7 +11,7 @@
                 <!-- Section: Introduction to Repetition -->
                 <section class="paragraph">
                     <h1>The CRAPsite - Repetition</h1>
-                    <p id="rep1">Repetition is the element that allows for easy recognition and unity of a site’s elements. It is about creating patterns and rhythms that guide the user through a design while also building recognition and memory. Repetition is about strategic reuse of colors, shapes, textures, and spatial relationships. It helps create visual relationships between elements that may otherwise seem disconnected.</p>
+                    <p class="rep1">Repetition is the element that allows for easy recognition and unity of a site’s elements. It is about creating patterns and rhythms that guide the user through a design while also building recognition and memory. Repetition is about strategic reuse of colors, shapes, textures, and spatial relationships. It helps create visual relationships between elements that may otherwise seem disconnected.</p>
                     <!-- Embedded Video for Repetition -->
                     <iframe  
                         class="paragraph-vid" 
@@ -29,14 +29,14 @@
                 <!-- Section: Visual Rhythm and Flow -->
                 <section class="paragraph">
                     <h2 class="interaction-h2" id="subhead1">Creating Visual Rhythm and Flow</h2>
-                    <p>Repetition in design serves as a powerful tool for creating visual rhythm, guiding viewers through content in a natural and engaging way. Much like music uses repeated patterns to create melody, design uses repeated visual elements to create flow. This rhythm can be established through the consistent spacing of elements, the regular use of certain colors, or the systematic application of specific design treatments. When properly executed, this visual rhythm makes content more digestible and memorable, allowing viewers to process information more efficiently while maintaining their engagement.</p>
-                    <p id="rep2">The Three Elements of Creating Visual Rhythm:</p>
-                    <ul id="unordered1">
+                    <p class="rep2">Repetition in design serves as a powerful tool for creating visual rhythm, guiding viewers through content in a natural and engaging way. Much like music uses repeated patterns to create melody, design uses repeated visual elements to create flow. This rhythm can be established through the consistent spacing of elements, the regular use of certain colors, or the systematic application of specific design treatments. When properly executed, this visual rhythm makes content more digestible and memorable, allowing viewers to process information more efficiently while maintaining their engagement.</p>
+                    <p class="rep2">The Three Elements of Creating Visual Rhythm:</p>
+                    <ul id="unordered1"  class="rep2">
                         <li>Regular Reuse of Elements</li>
                         <li>Consistency in Reuse</li>
                         <li>Recognizability of Repeated Elements</li>
                     </ul>
-                    <ol id="ordered1">
+                    <ol id="ordered1"  class="rep2">
                         <li>Regular Reuse of Elements</li>
                         <li>Consistency in Reuse</li>
                         <li>Recognizability of Repeated Elements</li>
@@ -46,20 +46,20 @@
                 <!-- Section: Enhancing User Experience -->
                 <section class="paragraph">
                     <h2 class="interaction-h2" id="subhead2">Enhancing User Experience Through Predictability</h2>
-                    <p>In the context of user experience, repetition plays a vital role in creating intuitive and user-friendly designs. By maintaining consistent patterns in navigation, button styles, and interactive elements, designers can create interfaces that users can learn and navigate with confidence. This predictability reduces cognitive load and makes interfaces more accessible to users of all skill levels. The careful application of repetition in interactive design elements ensures that users can focus on content rather than constantly relearning how to interact with different parts of an interface.</p>
-                    <p id="rep3">Keep in Mind:</p>
-                    <ol id="ordered2">
+                    <p  class="rep3">In the context of user experience, repetition plays a vital role in creating intuitive and user-friendly designs. By maintaining consistent patterns in navigation, button styles, and interactive elements, designers can create interfaces that users can learn and navigate with confidence. This predictability reduces cognitive load and makes interfaces more accessible to users of all skill levels. The careful application of repetition in interactive design elements ensures that users can focus on content rather than constantly relearning how to interact with different parts of an interface.</p>
+                    <p class="rep3">Keep in Mind:</p>
+                    <ol id="ordered2"  class="rep3">
                         <li>Users expect consistency</li>
                         <li>Good repetition can explain a website's layout all on its own</li>
                         <li>You can lose your user's focus with bad site repetition</li>
                     </ol>
-                    <ul id="unordered2">
+                    <ul id="unordered2"  class="rep3">
                         <li>Users expect consistency</li>
                         <li>Good repetition can explain a website's layout all on its own</li>
                         <li>You can lose your user's focus with bad site repetition</li>
                     </ul>
                     <!-- Repetition Image -->
-                    <img src="../assets/images/repetition1.jpg" alt="Graphical Example of Repetition" class="paragraph-img">
+                    <img src="../assets/images/repetition1.jpg" alt="Graphical Example of Repetition" class="long-img">
                 </section>
                 
             </div>

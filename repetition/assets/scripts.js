@@ -1,14 +1,15 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Adjust font style for body paragraphs
     const fontDropdowns = document.querySelectorAll('[id^="text-font"]');
-    const paragraphs = [document.getElementById('rep1'), document.getElementById('rep2'), document.getElementById('rep3')];
+    const paragraphClasses = ['rep1', 'rep2', 'rep3'];
 
     fontDropdowns.forEach((dropdown, index) => {
         dropdown.addEventListener('change', () => {
             const selectedFont = dropdown.value;
-            if (paragraphs[index]) {
-                paragraphs[index].style.fontFamily = selectedFont;
-            }
+            const paragraphs = document.querySelectorAll(`.${paragraphClasses[index]}`);
+            paragraphs.forEach(paragraph => {
+                paragraph.style.fontFamily = selectedFont;
+            });
         });
     });
 
@@ -28,8 +29,14 @@ document.addEventListener('DOMContentLoaded', () => {
     // Adjust list types shown
     const listDropdowns = [document.getElementById('list1'), document.getElementById('list2')];
     const lists = [
-        { ul: document.querySelector('section:nth-child(2) ul'), ol: document.querySelector('section:nth-child(2) ol') },
-        { ul: document.querySelector('section:nth-child(3) ul'), ol: document.querySelector('section:nth-child(3) ol') },
+        {
+            ul: document.querySelector('section:nth-child(2) ul'),
+            ol: document.querySelector('section:nth-child(2) ol')
+        },
+        {
+            ul: document.querySelector('section:nth-child(3) ul'),
+            ol: document.querySelector('section:nth-child(3) ol')
+        }
     ];
 
     listDropdowns.forEach((dropdown, index) => {
