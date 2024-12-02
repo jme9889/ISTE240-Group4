@@ -9,6 +9,7 @@
                 <section class="paragraph">
                     <h1>The CRAPsite - Contrast</h1>
                     <p class="contrast-p">Some generic text here about Contrast</p>
+                    <img src="../assets/images/contrast1.jpg" alt="Contrast Graphic" class="paragraph-img">
                 </section>
 
                 <section class="paragraph">
@@ -24,11 +25,16 @@
                 <section class="paragraph">
                     <h2 class="interaction-h2">A header</h2>
                     <p class="contrast-p">text</p>
+                    <iframe  class = "paragraph-vid" width="560" height="315" src="https://www.youtube.com/embed/Ox1iQ05FZ00?si=2NcviHssQEYlOkj4&amp;start=154&end431=" 
+                        title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    </iframe>
                 </section>
 
                 <!-- Paige, please try and get whatever content you write here split into at least 4 or 5 paragraphs -->
 
-                 <!--Try and include 1 or 2 more images/graphics from the ones Katiya had-->
+                 <!--Make sure content you write matches the graphics used-->
 
                  <!-- These are the images I plan to use, it's just gonna have one image visible at a time in the end. 
                   Put these images with whatever paragraph you have mentioning color contrast for images-->

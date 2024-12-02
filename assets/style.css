@@ -375,6 +375,16 @@ body {
     border: 1px solid black;
 }
 
+.paragraph-img {
+    max-width: 150px;
+}
+
+.paragraph-vid {
+    border-radius: 15px;
+    border: 1px solid black;
+    margin: 15px;
+}
+
 .mini-contrast-img {
     max-width: 125px;
     border: 1px solid black;
