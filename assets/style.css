@@ -2,14 +2,126 @@
  * Date: 12/2/24
  * ISTE-240 Group 4: Johnathan Eschbacher, Paige Bohman, Garrett Recker, Jonathan Unger, Katiya Zawrotny
  */
-/* Reset body margin */
 
+/*
+Header Styles
+*/
+
+#logo-img {
+    max-height: 175px;
+    margin: 0;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+nav a:hover {
+    background-color: #46b19a;
+}
+
+nav {
+    background-color: #5ac2ab;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+header {
+    background-color: #5ac2ab;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -40px;
+}
+
+.logo h1 {
+    font-size: 75px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    text-shadow: 3px 5px 8px black;
+}
+
+
+.nav-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-items h2 {
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    text-shadow: 3px 3px 5px black;
+}
+
+.nav-items .short-button {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+#head-title #C {
+    margin-left: 25px;
+}
+#C {
+    color: red;
+}
+#R {
+    color: #1C8C00;
+}
+#A {
+    color: yellow;
+}
+#P {
+    color: #AE00FF;
+}
+#Q {
+    color: #FF00A1;
+}
+
+#quiz-img {
+    max-height: 80px;
+}
+
+#quiz-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+/*
+Body Styles
+*/
 
 body {
     font-family: Arial, sans-serif;
     margin: 0;
 }
-
 .hero {
     width: 100%;
     max-height: 35vh;
@@ -372,7 +484,7 @@ body {
     position: relative;
 }
 
-/* Images and text styling */
+
 .column img {
     width: 100%;
     height: auto;
@@ -418,122 +530,12 @@ body {
     font-size: 1.1em;
 }
 
-/* Navigation code */
-#logo-img {
-    max-height: 175px;
-    margin: 0;
-}
-
-.nav-items {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: space-between;
-    margin-left: 75px;
-    margin-right: 75px;
-}
-
-nav a {
-    text-decoration: none;
-    display: inline-block;
-    color: white;
-    padding: 10px;
-    align-items: center;
-    justify-content: center;
-    border-radius: 15px;
-}
-nav a:hover {
-    background-color: #46b19a;
-}
-
-nav {
-    background-color: #5ac2ab;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    z-index: 10;
-    width: 100%;
-    padding-bottom: 25px;
-}
-
-header {
-    background-color: #5ac2ab;
-}
-
-.logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: -40px;
-}
-
-.logo h1 {
-    font-size: 75px;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    text-shadow: 3px 5px 8px black;
-}
-
-
-.nav-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.nav-items h2 {
-    font-size: 35px;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    text-align: center;
-    text-shadow: 3px 3px 5px black;
-}
-
-.nav-items .short-button {
-    font-weight: bolder;
-    font-size: 40px;
-}
-
-#head-title #C {
-    margin-left: 25px;
-}
-#C {
-    color: red;
-}
-#R {
-    color: #1C8C00;
-}
-#A {
-    color: yellow;
-}
-#P {
-    color: #AE00FF;
-}
-#Q {
-    color: #FF00A1;
-}
-
-#quiz-img {
-    max-height: 80px;
-}
-
-#quiz-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 50px;
-}
-
-/* hero  */
 .hero {
     height: 100vh;
     background-color: red;
     background-image: url("images/crowd.jpg");
 }
 
-/* Main content formatting */
 section h1 {
     color: black;
 }
@@ -550,13 +552,48 @@ section h3 {
     color: #ea6c43;
 }
 
-/* Image formatting */
 #bottom-img {
     max-width: 50%;
     border-radius: 10px;
     display: block;
     margin: auto;
 }
+
+.slider-container input[type="range"] {
+    width: 100px;
+    height: 20px;
+    background: #ea6c43;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.image-container {
+    overflow: hidden;
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.image-container img {
+    width: 1000px;
+    position: absolute;
+    left: 0;
+    transition: left 0.1s ease;
+    border-radius: 10px;
+}
+
+.good-bordered-image {
+    border: 10px solid #ea6c43; 
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+/*
+Footer Styles
+*/
 
 footer {
     margin-top: 10vh;
@@ -596,37 +633,9 @@ footer {
     text-align: right;
 }
 
-.slider-container input[type="range"] {
-    width: 100px;
-    height: 20px;
-    background: #ea6c43;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.image-container {
-    overflow: hidden;
-    width: 100%;
-    height: 300px;
-    margin-top: 20px;
-    border: 2px solid #000000;
-    border-radius: 10px;
-}
-
-.image-container img {
-    width: 1000px;
-    position: absolute;
-    left: 0;
-    transition: left 0.1s ease;
-    border-radius: 10px;
-}
-
-.good-bordered-image {
-    border: 10px solid #ea6c43; 
-    padding: 10px;
-    display: block;
-    margin: 0 auto;
-}
+/*
+Media Queries
+*/
 
 @media only screen and (max-width: 1850px) {
     .two-column {
