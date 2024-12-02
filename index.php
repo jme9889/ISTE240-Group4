@@ -1,22 +1,28 @@
 <?php
+    // Set the title for the page to be displayed in the browser tab and header
     $pageTitle = "Home Page";
 
+    // Include the header file
     include("./assets/inc/header.inc.php");
 ?>
     <main>
         <!-- Hero Image Section -->
-        <!-- test -->
         <div class="hero">
+            <!-- Display the main heading for the homepage -->
             <h1>Welcome to CRAP</h1>
         </div>
 
         <!-- Two-Column Section -->
         <div class="two-column">
+            <!-- Left Column: Image -->
             <div class="column">
+            <!-- Add an image to visually represent CRAP design principles -->
                 <img src="assets/images/home1.jpg" alt="Image that shows the 4 parts of CRAP- Contrast, Repition, Allignment, Position." id="side-img">
             </div>
-
+            
+            <!-- Right Column: Text Content -->
             <div class="column">
+                <!-- Section: Introduction -->
                 <section class="paragraph">
                     <h1>Welcome to the CRAPsite</h1>
                     <p> This website has been created to teach users about the CRAP principles as well as 
@@ -39,6 +45,8 @@
                     </p>
 
                 </section>
+
+                <!-- Individual CRAP Principle Descriptions -->
                 <section class="paragraph">
                     <h3>Contrast</h3>
                     <p>Contrast forms the foundation of effective design. By varying elements like color, size,
@@ -80,6 +88,8 @@
                         and locate the information they need with ease.
                     </p>
                 </section>
+                
+                <!-- Section: Website Features -->
                 <section class="paragraph">
                     <h2>Using this Website</h2>
                     <p>Each page offers an explanation of a specific design principle, along with interactive features
@@ -94,10 +104,11 @@
             </div>
 
         </div>
-        <!-- I want this one across the bottom instead of in a column -->
+        <!-- Image at the Bottom showing CRAP Principals -->
         <img src="assets/images/home2.jpg"
             alt="Image that shows the 4 CRAP principles with different color and placement of circles." id="bottom-img">
     </main>
 <?php
+    // Include the footer file
     include("./assets/inc/footer.inc.php");
 ?>
