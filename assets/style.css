@@ -393,7 +393,8 @@ body {
     border: 1px solid black;
     margin-top: 25px;
     margin-bottom: 25px;
-    width: 80%;
+    height: 300px;
+    width: 500px;
 }
 
 .mini-contrast-img {
@@ -688,6 +689,10 @@ footer {
   }
 
   @media only screen and (max-width: 800px) {
+    .paragraph-vid {
+        height: 250px;
+        width: 400px;
+    }
     .control-section {
         width: 500px;
     }
@@ -703,6 +708,10 @@ footer {
   }
 
   @media only screen and (max-width: 650px) {
+    .paragraph-vid {
+        height: 200px;
+        width: 300px;
+    }
     #slider-img {
         max-width: 175px;
     }
@@ -767,6 +776,10 @@ footer {
   }
 
   @media only screen and (max-width: 450px) {
+    .paragraph-vid {
+        height: 150px;
+        width: 250px;
+    }
     .control-section {
         width: 250px;
     }
