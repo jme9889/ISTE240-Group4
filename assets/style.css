@@ -251,8 +251,12 @@ body {
     display: block;
 }
 
-#h-white1, #h-white2, #h-white3, #h-white4, #quiz-h1 {
+#h-white1, #h-white2, #h-white3, #h-white4 {
     color: white;
+}
+
+#quiz-h1 {
+    color:rgb(229, 224, 224);
 }
 
 #h-blue1, #h-blue2, #h-blue3, #h-blue4, #quiz-h2 {

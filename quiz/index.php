@@ -16,7 +16,7 @@ ISTE-240 Group 4: Johnathan Eschbacher, Paige Bohman, Garrett Recker, Jonathan U
                 <!-- Section: Contrast Paragraph of Quiz -->
                 <section class="quiz-paragraph">
                     <h2 class="quiz-subhead" id="quiz-h1">Contrast</h2>
-                    <p id="quiz-p1">Some generic text here about Contrast</p>
+                    <p id="quiz-p1">Creates visual interest and hierarchy by using differences in elements like color, size, and shape to make important content stand out.</p>
 
                     <!-- Images: 4 Images to Switch Between -->
                     <img src="../assets/images/quiz-contrast.jpg" alt="Contrast" class="quiz-graphic" id="quiz1-1">
@@ -28,7 +28,7 @@ ISTE-240 Group 4: Johnathan Eschbacher, Paige Bohman, Garrett Recker, Jonathan U
                 <!-- Section: Repetition Paragraph of Quiz -->
                 <section class="quiz-paragraph">
                     <h2 class="quiz-subhead" id="quiz-h2">Repetition</h2>
-                    <p id="quiz-p2">Some generic text here about Repetition</p>
+                    <p id="quiz-p2">Establishes consistency and unity by reusing design elements like colors, fonts, and patterns throughout a piece.</p>
 
                     <!-- Images: 4 Images to Switch Between -->
                     <img src="../assets/images/quiz-contrast.jpg" alt="Contrast" class="quiz-graphic" id="quiz1-2">
@@ -40,7 +40,7 @@ ISTE-240 Group 4: Johnathan Eschbacher, Paige Bohman, Garrett Recker, Jonathan U
                 <!-- Section: Alignment Paragraph of Quiz -->
                 <section class="quiz-paragraph">
                     <h2 class="quiz-subhead" id="quiz-h3">Alignment</h2>
-                    <p id="quiz-p3">Some generic text here about Alignment</p>
+                    <p id="quiz-p3">Organizes elements by creating visual connections through proper positioning and spacing, making designs appear clean and structured.</p>
 
                     <!-- Images: 4 Images to Switch Between -->
                     <img src="../assets/images/quiz-contrast.jpg" alt="Contrast" class="quiz-graphic" id="quiz1-3">
@@ -52,7 +52,7 @@ ISTE-240 Group 4: Johnathan Eschbacher, Paige Bohman, Garrett Recker, Jonathan U
                 <!-- Section: Proximity Paragraph of Quiz -->
                 <section class="quiz-paragraph">
                     <h2 class="quiz-subhead" id="quiz-h4">Proximity</h2>
-                    <p id="quiz-p4">Some generic text here about Proximity</p>
+                    <p id="quiz-p4">Groups related elements together while separating unrelated ones to create clear visual relationships and improve understanding.</p>
 
                     <!-- Images: 4 Images to Switch Between -->
                     <img src="../assets/images/quiz-contrast.jpg" alt="Contrast" class="quiz-graphic" id="quiz1-4">
