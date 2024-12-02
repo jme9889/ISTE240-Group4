@@ -215,11 +215,10 @@
                     
                 <form action="index.php" method="post" onsubmit="gradeQuiz(event);">
                     <p><strong>Proximity:</strong><br>Choose one spot for each image (no repeats) for the best proximity!</p>
-                    <img src="#" alt="Contrast" class="mini-quiz-graphic">
+                    <img src="../assets/images/quiz-contrast.jpg" alt="Contrast" class="mini-prox-graphic">
 
                     <section class="quiz-image-change">
                         <h4>First Image:</h4>
-                        <img src="../assets/images/quiz-contrast.jpg" alt="Contrast" class="mini-prox-graphic">
                         <select class="quiz-dropdown" id="quiz-img-prox1" name="quiz-img-prox1">
                             <option value="fourth" id="quiz-fourth1">Fourth</option>
                             <option value="first" id="quiz-first1">First</option>
@@ -229,11 +228,10 @@
                     </section>
                     <hr>
         
-                    <img src="#" alt="Repetition" class="mini-quiz-graphic">
+                    <img src="../assets/images/quiz-repetition.jpg" alt="Repetition" class="mini-prox-graphic">
 
                     <section class="quiz-image-change">
                         <h4>Second Image:</h4>
-                        <img src="../assets/images/quiz-repetition.jpg" alt="Repetition" class="mini-prox-graphic">
                         <select class="quiz-dropdown" id="quiz-img-prox2" name="quiz-img-prox2">
                             <option value="third" id="quiz-third2">Third</option>
                             <option value="fourth" id="quiz-fourth2">Fourth</option>
@@ -243,11 +241,10 @@
                     </section>
                     <hr>
         
-                    <img src="#" alt="Alignment" class="mini-quiz-graphic">
+                    <img src="../assets/images/quiz-alignment.png" alt="Alignment" class="mini-prox-graphic">
 
                     <section class="quiz-image-change">
                         <h4>Third Image:</h4>
-                        <img src="../assets/images/quiz-alignment.png" alt="Alignment" class="mini-prox-graphic">
                         <select class="quiz-dropdown" id="quiz-img-prox3" name="quiz-img-prox3">
                             <option value="second" id="quiz-second3">Second</option>
                             <option value="third" id="quiz-third3">Third</option>
@@ -257,11 +254,10 @@
                     </section>
                     <hr>
         
-                    <img src="#" alt="Proximity" class="mini-quiz-graphic">
+                    <img src="../assets/images/quiz-proximity.png" alt="Proximity" class="mini-prox-graphic">
 
                     <section class="quiz-image-change">
                         <h4>Fourth Image:</h4>
-                        <img src="../assets/images/quiz-proximity.png" alt="Proximity" class="mini-prox-graphic">
                         <select class="quiz-dropdown" id="quiz-img-prox4" name="quiz-img-prox4">
                             <option value="first" id="quiz-first3">First</option>
                             <option value="second" id="quiz-second3">Second</option>
