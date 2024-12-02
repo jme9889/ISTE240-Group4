@@ -16,7 +16,14 @@ ISTE-240 Group 4: Johnathan Eschbacher, Paige Bohman, Garrett Recker, Jonathan U
                 <!-- Section: Contrast Paragraph of Quiz -->
                 <section class="quiz-paragraph">
                     <h2 class="quiz-subhead" id="quiz-h1">Contrast</h2>
-                    <p id="quiz-p1">Creates visual interest and hierarchy by using differences in elements like color, size, and shape to make important content stand out.</p>
+                    <p id="quiz-p1">Contrast creates visual interest and hierarchy by using differences in elements 
+                        like color, size, and shape to make important content stand out. This principle enhances the 
+                        readability and hierarchy of elements by ensuring critical components, such as headlines or 
+                        call-to-action buttons, stand out against their background. High-contrast combinations, like 
+                        black text on a white background, improve accessibility, especially for users with visual 
+                        impairments. However, balance is essential; too much contrast can overwhelm and confuse, while 
+                        too little can make designs appear monotonous. By using color saturation, shapes, and size 
+                        effectively, designers can guide users' eyes and enhance their overall experience.</p>
 
                     <!-- Images: 4 Images to Switch Between -->
                     <img src="../assets/images/quiz-contrast.jpg" alt="Contrast" class="quiz-graphic" id="quiz1-1">
@@ -28,7 +35,13 @@ ISTE-240 Group 4: Johnathan Eschbacher, Paige Bohman, Garrett Recker, Jonathan U
                 <!-- Section: Repetition Paragraph of Quiz -->
                 <section class="quiz-paragraph">
                     <h2 class="quiz-subhead" id="quiz-h2">Repetition</h2>
-                    <p id="quiz-p2">Establishes consistency and unity by reusing design elements like colors, fonts, and patterns throughout a piece.</p>
+                    <p id="quiz-p2">Repetition establishes consistency and unity by reusing design elements like colors, 
+                        fonts, and patterns throughout a piece. This consistency helps users quickly familiarize themselves 
+                        with the design structure, reinforcing brand identity and improving navigation. For example, using 
+                        the same typography for headings and a recurring icon style throughout a website creates a 
+                        seamless and professional appearance. However, overuse of repetition can lead to redundancy; careful 
+                        moderation ensures the design remains engaging. Through deliberate and sparing application, repetition 
+                        provides rhythm and predictability, making designs more visually appealing and user-friendly.</p>
 
                     <!-- Images: 4 Images to Switch Between -->
                     <img src="../assets/images/quiz-contrast.jpg" alt="Contrast" class="quiz-graphic" id="quiz1-2">
@@ -40,7 +53,13 @@ ISTE-240 Group 4: Johnathan Eschbacher, Paige Bohman, Garrett Recker, Jonathan U
                 <!-- Section: Alignment Paragraph of Quiz -->
                 <section class="quiz-paragraph">
                     <h2 class="quiz-subhead" id="quiz-h3">Alignment</h2>
-                    <p id="quiz-p3">Organizes elements by creating visual connections through proper positioning and spacing, making designs appear clean and structured.</p>
+                    <p id="quiz-p3">Alignment organizes elements by creating visual connections through proper positioning and spacing, 
+                        making designs appear clean and structured. Proper alignment creates a sense of order, aiding users in 
+                        processing information efficiently and reducing visual clutter. For example, left-aligned text provides 
+                        a predictable starting point for the eye, enhancing readability for larger text blocks. In contrast, 
+                        center-alignment, while aesthetically appealing for small text groups, can hinder readability when overused. 
+                        Designers use alignment techniques like edge, center, and optical alignment to maintain a cohesive structure, 
+                        improving the overall user experience and trust in the brand.</p>
 
                     <!-- Images: 4 Images to Switch Between -->
                     <img src="../assets/images/quiz-contrast.jpg" alt="Contrast" class="quiz-graphic" id="quiz1-3">
@@ -52,7 +71,12 @@ ISTE-240 Group 4: Johnathan Eschbacher, Paige Bohman, Garrett Recker, Jonathan U
                 <!-- Section: Proximity Paragraph of Quiz -->
                 <section class="quiz-paragraph">
                     <h2 class="quiz-subhead" id="quiz-h4">Proximity</h2>
-                    <p id="quiz-p4">Groups related elements together while separating unrelated ones to create clear visual relationships and improve understanding.</p>
+                    <p id="quiz-p4">Proximity groups related elements together while separating unrelated ones to create clear visual 
+                        relationships and improve understanding. This principle simplifies communication by visually signaling 
+                        relationships, such as grouping form labels with their fields to reduce confusion. Whitespace plays a critical 
+                        role, helping users differentiate sections and focus on relevant information. Conversely, improper grouping can 
+                        lead to missed elements or user frustration, as unrelated items appear falsely connected. By leveraging proximity, 
+                        designers can create intuitive layouts that reduce cognitive load and enhance the efficiency of user interactions.</p>
 
                     <!-- Images: 4 Images to Switch Between -->
                     <img src="../assets/images/quiz-contrast.jpg" alt="Contrast" class="quiz-graphic" id="quiz1-4">
