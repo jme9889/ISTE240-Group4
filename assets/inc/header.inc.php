@@ -4,10 +4,27 @@
     $bodyID = '';
 
     $assetPath = "";
+    $onContrast = '';
+    $onRepetition = '';
+    $onAlignment = '';
+    $onProximity = '';
+    $onQuiz = '';
     if (strpos($_SERVER['REQUEST_URI'], '/alignment/') !== false || strpos($_SERVER['REQUEST_URI'], '/contrast/') !== false ||
         strpos($_SERVER['REQUEST_URI'], '/proximity/') !== false || strpos($_SERVER['REQUEST_URI'], '/quiz/') !== false ||
         strpos($_SERVER['REQUEST_URI'], '/references/') !== false || strpos($_SERVER['REQUEST_URI'], '/repetition/') !== false) {
         $assetPath = "../";
+    }
+
+    if (strpos($_SERVER['REQUEST_URI'], '/contrast/') !== false) {
+        $onContrast = ' style= "border-bottom: 3px solid red;"';
+    } else if(strpos($_SERVER['REQUEST_URI'], '/repetition/') !== false) {
+        $onRepetition = ' style= "border-bottom: 3px solid red;"';
+    } else if(strpos($_SERVER['REQUEST_URI'], '/alignment/') !== false) {
+        $onAlignment = ' style= "border-bottom: 3px solid red;"';
+    } else if(strpos($_SERVER['REQUEST_URI'], '/proximity/') !== false) {
+        $onProximity = ' style= "border-bottom: 3px solid red;"';
+    } else if(strpos($_SERVER['REQUEST_URI'], '/quiz/') !== false) {
+        $onQuiz = ' style= "border-bottom: 3px solid red;"';
     }
 ?>
 
@@ -39,32 +56,32 @@
         <nav>
             <div class="nav-items">
                 <a href="<?php echo $assetPath; ?>contrast/index.php">
-                    <h2 class="nav-button">
+                    <h2 class="nav-button"<?php echo $onContrast; ?>>
                         <div class="short-button" id="C">C</div>
                         <div class="full-button">ontrast</div>
                     </h2>
                 </a>
                 <a href="<?php echo $assetPath; ?>repetition/index.php">
-                    <h2 class="nav-button">
+                    <h2 class="nav-button"<?php echo $onRepetition; ?>>
                         <div class="short-button" id="R">R</div>
                         <div class="full-button">epetition</div>
                     </h2>
                 </a>
                 <a href="<?php echo $assetPath; ?>alignment/index.php">
-                    <h2 class="nav-button">
+                    <h2 class="nav-button"<?php echo $onAlignment; ?>>
                         <div class="short-button" id="A">A</div>
                         <div class="full-button">lignment</div>
                     </h2>
                 </a>
                 <a href="<?php echo $assetPath; ?>proximity/index.php">
-                    <h2 class="nav-button">
+                    <h2 class="nav-button"<?php echo $onProximity; ?>>
                         <div class="short-button" id="P">P</div>
                         <div class="full-button">roximity</div>
                     </h2>
                 </a>
                 <a href="<?php echo $assetPath; ?>quiz/index.php" id="quiz-button">
                     <img src="<?php echo $assetPath; ?>assets/images/quiz.png" alt="Quiz" id="quiz-img">
-                    <h2 class="nav-button">
+                    <h2 class="nav-button"<?php echo $onQuiz; ?>>
                         <div class="short-button" id="Q">Q</div>
                         <div class="full-button">uiz</div>
                     </h2>
