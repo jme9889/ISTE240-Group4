@@ -268,7 +268,7 @@ body {
 
 .prox-graphic {
     display: none;
-    max-width: 300px;
+    max-width: 400px;
     border: 1px solid black;
 }
 
@@ -375,7 +375,7 @@ body {
 }
 
 .paragraph-img {
-    width: 350px;
+    max-width: 400px;
     border: 1px solid black;
 }
 
