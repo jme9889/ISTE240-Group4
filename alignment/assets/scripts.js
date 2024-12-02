@@ -14,8 +14,10 @@ document.addEventListener("DOMContentLoaded", function () {
         if (dropdown && paragraph) {
             dropdown.addEventListener("change", function () {
                 paragraph.style.justifyContent = dropdown.value;
+                paragraph.style.textAlign = dropdown.value;
             });
             paragraph.style.justifyContent = dropdown.value;
+            paragraph.style.textAlign = dropdown.value;
         }
     }
 

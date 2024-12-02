@@ -124,6 +124,7 @@ document.addEventListener("DOMContentLoaded", () => {
             // set alignment for specified paragraph
             if (targetParagraph) {
                 targetParagraph.style.display = 'flex';
+                targetParagraph.style.textAlign = justifyValue;
                 targetParagraph.style.justifyContent = justifyValue;
             }
         });

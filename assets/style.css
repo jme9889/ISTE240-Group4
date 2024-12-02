@@ -3,12 +3,13 @@
  * ISTE-240 Group 4: Johnathan Eschbacher, Paige Bohman, Garrett Recker, Jonathan Unger, Katiya Zawrotny
  */
 /* Reset body margin */
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
 }
 
-/* Hero image */
 .hero {
     width: 100%;
     max-height: 35vh;
@@ -21,7 +22,6 @@ body {
     justify-content: center;
 }
 
-/* Text overlay for hero image */
 .hero h1 {
     color: #2affd1;
     font-size: 3em;
@@ -36,7 +36,6 @@ body {
     width: auto;
 }
 
-/* Two-column layout */
 .two-column {
     display: grid;
     grid-template-columns: 40% 60%;
@@ -181,20 +180,17 @@ body {
     width: 70%;
 }
 #al3 {
-    /* display: flex;
-    position: relative; */
+    text-align: center;
     justify-content: center;
 }
 
 #al2 {
-    /* display: flex;
-    position: relative; */
+    text-align: right;
     justify-content: right;
 }
 
 #al1 {
-    /* display: flex;
-    position: relative; */
+    text-align: left;
     justify-content: left;
 }
 
@@ -299,20 +295,17 @@ body {
 }
 
 #quiz-p2 {
-    display: flex;
-    position: relative;
+    text-align: center;
     justify-content: center;
 }
 
 #quiz-p3 {
-    display: flex;
-    position: relative;
+    text-align: right;
     justify-content: right;
 }
 
 #quiz-p1, #quiz-p4 {
-    display: flex;
-    position: relative;
+    text-align: left;
     justify-content: left;
 }
 
