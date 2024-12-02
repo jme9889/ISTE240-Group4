@@ -1,6 +1,8 @@
 <?php
+    // Set the title for the page to be displayed in the browser tab and header
     $pageTitle = "Quiz";
 
+    // Include the header file
     include("../assets/inc/header.inc.php");
 ?>
    <main>
@@ -49,10 +51,6 @@
 
                 <!-- Paige, please try and get whatever content you write here split into 4 paragraphs (keep the containers below).
                  Each paragraph here should just be generic stuff about Contrast, Repetition, Alignment, and Proximity again. -->
-
-                 <!--Include 4 images/videos from the ones Katiya had. I have the placeholders there already for them, just use those
-                 spots. If you add videos/s, replace the placeholder but keep the class name. All 4 images are on each paragraph b/c
-                 the user will choose which ones are visible. There should be 1 image/video for each of the 4 principles (CRAP)-->
             </div>
         </div>
 
@@ -274,5 +272,6 @@
         </div>
     </main>   
 <?php
+    // Include the footer file
     include("../assets/inc/footer.inc.php");
 ?>
