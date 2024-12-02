@@ -4,14 +4,6 @@ body {
     margin: 0;
 }
 
-#contrast-body {
-    background-color: #E7DAC7;
-}
-
-#quiz-body {
-    background-color: #bff0df;
-}
-
 /* Hero image */
 .hero {
     width: 100%;
@@ -376,7 +368,7 @@ body {
 }
 
 .paragraph-img {
-    max-width: 350px;
+    width: 400px;
 }
 
 .paragraph-vid {
