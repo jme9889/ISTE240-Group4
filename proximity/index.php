@@ -9,45 +9,40 @@
                 <section class="paragraph">
                     <h1>The CRAPsite - Proximity</h1>
                     <p>Some generic text here about Proximity</p>
-                    <img src="#" alt="1" class="prox-graphic" id="prox1-1">
-                    <img src="#" alt="2" class="prox-graphic" id="prox2-1">
-                    <img src="#" alt="3" class="prox-graphic" id="prox3-1">
-                    <img src="#" alt="4" class="prox-graphic" id="prox4-1">
+                    <img src="../assets/images/proximity1.jpg" alt="1" class="prox-graphic" id="prox1-1">
+                    <img src="../assets/images/proximity2.png" alt="2" class="prox-graphic" id="prox2-1">
+                    <img src="../assets/images/proximity3.png" alt="3" class="prox-graphic" id="prox3-1">
+                    <img src="../assets/images/proximity4.jpg" alt="4" class="prox-graphic" id="prox4-1">
                 </section>
 
                 <section class="paragraph">
                     <h2 class="interaction-h2">A header</h2>
                     <p>text</p>
-                    <img src="#" alt="1" class="prox-graphic" id="prox1-2">
-                    <img src="#" alt="2" class="prox-graphic" id="prox2-2">
-                    <img src="#" alt="3" class="prox-graphic" id="prox3-2">
-                    <img src="#" alt="4" class="prox-graphic" id="prox4-2">
+                    <img src="../assets/images/proximity1.jpg" alt="1" class="prox-graphic" id="prox1-2">
+                    <img src="../assets/images/proximity2.png" alt="2" class="prox-graphic" id="prox2-2">
+                    <img src="../assets/images/proximity3.png" alt="3" class="prox-graphic" id="prox3-2">
+                    <img src="../assets/images/proximity4.jpg" alt="4" class="prox-graphic" id="prox4-2">
                 </section>
 
                 <section class="paragraph">
                     <h2 class="interaction-h2">A header</h2>
                     <p>text</p>
-                    <img src="#" alt="1" class="prox-graphic" id="prox1-3">
-                    <img src="#" alt="2" class="prox-graphic" id="prox2-3">
-                    <img src="#" alt="3" class="prox-graphic" id="prox3-3">
-                    <img src="#" alt="4" class="prox-graphic" id="prox4-3">
+                    <img src="../assets/images/proximity1.jpg" alt="1" class="prox-graphic" id="prox1-3">
+                    <img src="../assets/images/proximity2.png" alt="2" class="prox-graphic" id="prox2-3">
+                    <img src="../assets/images/proximity3.png" alt="3" class="prox-graphic" id="prox3-3">
+                    <img src="../assets/images/proximity4.jpg" alt="4" class="prox-graphic" id="prox4-3">
                 </section>
 
                 <section class="paragraph">
                     <h2 class="interaction-h2">A header</h2>
                     <p>text</p>
-                    <img src="#" alt="1" class="prox-graphic" id="prox1-4">
-                    <img src="#" alt="2" class="prox-graphic" id="prox2-4">
-                    <img src="#" alt="3" class="prox-graphic" id="prox3-4">
-                    <img src="#" alt="4" class="prox-graphic" id="prox4-4">
+                    <img src="../assets/images/proximity1.jpg" alt="1" class="prox-graphic" id="prox1-4">
+                    <img src="../assets/images/proximity2.png" alt="2" class="prox-graphic" id="prox2-4">
+                    <img src="../assets/images/proximity3.png" alt="3" class="prox-graphic" id="prox3-4">
+                    <img src="../assets/images/proximity4.jpg" alt="4" class="prox-graphic" id="prox4-4">
                 </section>
-
-                <!-- Paige, please try and get whatever content you write here split into 4 paragraphs (keep the containers below). -->
-
-                 <!--Include 4 images/videos from the ones Katiya had. I have the placeholders there already for them, just use those
-                 spots. If you add videos/s, replace the placeholder but keep the class name. All 4 images are on each paragraph b/c
-                 the user will choose which ones are visible. Make sure there's one video/image for each paragraph, but by default don't
-                 worry about making sure the paragraph is with the image already.-->
+                 <!--Make sure there's one paragraph for each image, but make it reverse order. Meaning, the content in
+                 paragraph 1 applies to the image in paragraph 4, and so on.-->
             </div>
         </div>
 
@@ -61,7 +56,7 @@
                 <div class="control-section">
                     <form action="index.php" method="post">
                         <p>Choose one spot for each image (no repeats) for the best proximity!</p>
-                        <img src="#" alt="1" class="mini-prox-graphic">
+                        <img src="../assets/images/proximity1.jpg" alt="1" class="mini-prox-graphic">
 
                         <section class="image-change">
                             <h4>First Image:</h4>
@@ -74,7 +69,7 @@
                         </section>
                         <hr>
     
-                        <img src="#" alt="2" class="mini-prox-graphic">
+                        <img src="../assets/images/proximity2.png" alt="2" class="mini-prox-graphic">
 
                         <section class="image-change">
                             <h4>Second Image:</h4>
@@ -87,7 +82,7 @@
                         </section>
                         <hr>
     
-                        <img src="#" alt="3" class="mini-prox-graphic">
+                        <img src="../assets/images/proximity3.png" alt="3" class="mini-prox-graphic">
 
                         <section class="image-change">
                             <h4>Third Image:</h4>
@@ -100,7 +95,7 @@
                         </section>
                         <hr>
     
-                        <img src="#" alt="4" class="mini-prox-graphic">
+                        <img src="../assets/images/proximity4.jpg" alt="4" class="mini-prox-graphic">
 
                         <section class="image-change">
                             <h4>Fourth Image:</h4>
