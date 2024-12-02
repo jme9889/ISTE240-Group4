@@ -11,40 +11,40 @@
                     <h2 class="quiz-subhead" id="quiz-h1">Contrast</h2>
                     <p id="quiz-p1">Some generic text here about Contrast</p>
 
-                    <img src="#" alt="Contrast" class="quiz-graphic" id="quiz1-1">
-                    <img src="#" alt="Repetition" class="quiz-graphic" id="quiz2-1">
-                    <img src="#" alt="Alignment" class="quiz-graphic" id="quiz3-1">
-                    <img src="#" alt="Proximity" class="quiz-graphic" id="quiz4-1">
+                    <img src="../assets/images/quiz-contrast.jpg" alt="Contrast" class="quiz-graphic" id="quiz1-1">
+                    <img src="../assets/images/quiz-repetition.jpg" alt="Repetition" class="quiz-graphic" id="quiz2-1">
+                    <img src="../assets/images/quiz-alignment.png" alt="Alignment" class="quiz-graphic" id="quiz3-1">
+                    <img src="../assets/images/quiz-proximity.png" alt="Proximity" class="quiz-graphic" id="quiz4-1">
                 </section>
 
                 <section class="quiz-paragraph">
                     <h2 class="quiz-subhead" id="quiz-h2">Repetition</h2>
                     <p id="quiz-p2">Some generic text here about Repetition</p>
 
-                    <img src="#" alt="Contrast" class="quiz-graphic" id="quiz1-2">
-                    <img src="#" alt="Repetition" class="quiz-graphic" id="quiz2-2">
-                    <img src="#" alt="Alignment" class="quiz-graphic" id="quiz3-2">
-                    <img src="#" alt="Proximity" class="quiz-graphic" id="quiz4-2">
+                    <img src="../assets/images/quiz-contrast.jpg" alt="Contrast" class="quiz-graphic" id="quiz1-2">
+                    <img src="../assets/images/quiz-repetition.jpg" alt="Repetition" class="quiz-graphic" id="quiz2-2">
+                    <img src="../assets/images/quiz-alignment.png" alt="Alignment" class="quiz-graphic" id="quiz3-2">
+                    <img src="../assets/images/quiz-proximity.png" alt="Proximity" class="quiz-graphic" id="quiz4-2">
                 </section>
 
                 <section class="quiz-paragraph">
                     <h2 class="quiz-subhead" id="quiz-h3">Alignment</h2>
                     <p id="quiz-p3">Some generic text here about Alignment</p>
 
-                    <img src="#" alt="Contrast" class="quiz-graphic" id="quiz1-3">
-                    <img src="#" alt="Repetition" class="quiz-graphic" id="quiz2-3">
-                    <img src="#" alt="Alignment" class="quiz-graphic" id="quiz3-3">
-                    <img src="#" alt="Proximity" class="quiz-graphic" id="quiz4-3">
+                    <img src="../assets/images/quiz-contrast.jpg" alt="Contrast" class="quiz-graphic" id="quiz1-3">
+                    <img src="../assets/images/quiz-repetition.jpg" alt="Repetition" class="quiz-graphic" id="quiz2-3">
+                    <img src="../assets/images/quiz-alignment.png" alt="Alignment" class="quiz-graphic" id="quiz3-3">
+                    <img src="../assets/images/quiz-proximity.png" alt="Proximity" class="quiz-graphic" id="quiz4-3">
                 </section>
 
                 <section class="quiz-paragraph">
                     <h2 class="quiz-subhead" id="quiz-h4">Proximity</h2>
                     <p id="quiz-p4">Some generic text here about Proximity</p>
 
-                    <img src="#" alt="Contrast" class="quiz-graphic" id="quiz1-4">
-                    <img src="#" alt="Repetition" class="quiz-graphic" id="quiz2-4">
-                    <img src="#" alt="Alignment" class="quiz-graphic" id="quiz3-4">
-                    <img src="#" alt="Proximity" class="quiz-graphic" id="quiz4-4">
+                    <img src="../assets/images/quiz-contrast.jpg" alt="Contrast" class="quiz-graphic" id="quiz1-4">
+                    <img src="../assets/images/quiz-repetition.jpg" alt="Repetition" class="quiz-graphic" id="quiz2-4">
+                    <img src="../assets/images/quiz-alignment.png" alt="Alignment" class="quiz-graphic" id="quiz3-4">
+                    <img src="../assets/images/quiz-proximity.png" alt="Proximity" class="quiz-graphic" id="quiz4-4">
                 </section>
 
                 <!-- Paige, please try and get whatever content you write here split into 4 paragraphs (keep the containers below).
