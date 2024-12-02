@@ -277,6 +277,13 @@ body {
 
 .prox-graphic {
     display: none;
+    max-width: 400px;
+    border: 1px solid black;
+}
+
+.mini-prox-graphic {
+    max-width: 125px;
+    border: 1px solid black;
 }
 
 #prox1-1, #prox2-2, #prox3-3, #prox4-4 {
@@ -377,7 +384,8 @@ body {
 }
 
 .paragraph-img {
-    width: 350px;
+    max-width: 400px;
+    border: 1px solid black;
 }
 
 .paragraph-vid {
