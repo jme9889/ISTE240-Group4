@@ -376,13 +376,14 @@ body {
 }
 
 .paragraph-img {
-    max-width: 150px;
+    max-width: 250px;
 }
 
 .paragraph-vid {
     border-radius: 15px;
     border: 1px solid black;
-    margin: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .mini-contrast-img {

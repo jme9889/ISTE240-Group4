@@ -9,17 +9,23 @@
                 <section class="align-paragraph">
                     <h1>The CRAPsite | Alignment</h1>
                     <p id="al1">Some generic text here about Alignment</p>
+                    <iframe  class = "paragraph-vid" width="560" height="315" src="https://www.youtube.com/embed/Ox1iQ05FZ00?si=2NcviHssQEYlOkj4&amp;start=850&end930=" 
+                        title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    </iframe>
                 </section>
 
                 <section class="align-paragraph">
                     <h2 class="interaction-h2">A header</h2>
                     <p id="al2">Some more text here about Alignment</p>
+                    <img src="../assets/images/alignment1.jpg" alt="Alignment example image" class="paragraph-img">
                 </section>
 
                 <section class="align-paragraph">
                     <h2 class="interaction-h2">A header</h2>
                     <p id="al3">Some more text here about Alignment</p>
-                    <img src="#" alt="" id="slider-img">
+                    <img src="../assets/images/alignment2.png" alt="Alignment example image" class="paragraph-img" id="slider-img">
                 </section>
 
                 <!-- Paige, please try and get whatever content you write here split into 3 paragraphs (keep the containers below).
