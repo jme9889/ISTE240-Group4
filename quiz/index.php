@@ -6,7 +6,7 @@
    <main>
         <div class="single-column">
             <div class="column">
-                <h1>The CRAPsite | Quiz</h1>
+                <h1>The CRAPsite - Quiz</h1>
                 <section class="quiz-paragraph">
                     <h2 class="quiz-subhead" id="quiz-h1">Contrast</h2>
                     <p id="quiz-p1">Some generic text here about Contrast</p>
@@ -219,6 +219,7 @@
 
                     <section class="quiz-image-change">
                         <h4>First Image:</h4>
+                        <img src="../assets/images/quiz-contrast.jpg" alt="Contrast" class="mini-prox-graphic">
                         <select class="quiz-dropdown" id="quiz-img-prox1" name="quiz-img-prox1">
                             <option value="fourth" id="quiz-fourth1">Fourth</option>
                             <option value="first" id="quiz-first1">First</option>
@@ -232,6 +233,7 @@
 
                     <section class="quiz-image-change">
                         <h4>Second Image:</h4>
+                        <img src="../assets/images/quiz-repetition.jpg" alt="Repetition" class="mini-prox-graphic">
                         <select class="quiz-dropdown" id="quiz-img-prox2" name="quiz-img-prox2">
                             <option value="third" id="quiz-third2">Third</option>
                             <option value="fourth" id="quiz-fourth2">Fourth</option>
@@ -245,6 +247,7 @@
 
                     <section class="quiz-image-change">
                         <h4>Third Image:</h4>
+                        <img src="../assets/images/quiz-alignment.png" alt="Alignment" class="mini-prox-graphic">
                         <select class="quiz-dropdown" id="quiz-img-prox3" name="quiz-img-prox3">
                             <option value="second" id="quiz-second3">Second</option>
                             <option value="third" id="quiz-third3">Third</option>
@@ -258,6 +261,7 @@
 
                     <section class="quiz-image-change">
                         <h4>Fourth Image:</h4>
+                        <img src="../assets/images/quiz-proximity.png" alt="Proximity" class="mini-prox-graphic">
                         <select class="quiz-dropdown" id="quiz-img-prox4" name="quiz-img-prox4">
                             <option value="first" id="quiz-first3">First</option>
                             <option value="second" id="quiz-second3">Second</option>

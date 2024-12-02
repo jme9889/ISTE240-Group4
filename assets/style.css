@@ -275,7 +275,7 @@ body {
     background-color: gray;
 }
 
-.prox-graphic {
+.prox-graphic, .quiz-graphic {
     display: none;
     max-width: 400px;
     border: 1px solid black;
