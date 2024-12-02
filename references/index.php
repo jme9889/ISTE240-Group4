@@ -1,11 +1,15 @@
 <?php
+    // Set the title for the page to be displayed in the browser tab and header
     $pageTitle = "References";
 
+     // Include the header file
     include("../assets/inc/header.inc.php");
 ?>
     <main>
+        <!-- MLA 9 Citations for all graphics used, grouped by their location -->
         <div id="reference-body">
             <section class="citations">
+                <!-- Specifically Header Citations -->
                 <h3 class="citation-page">Header</h3>
                 <p>
                     <div class="csl-entry"><i>Test Vector Icon Isolated Transparent Background Test Logo Concept Stock Vector by ©tvectoricons 214578476</i>. <a href="https://depositphotos.com/vector/test-vector-icon-isolated-transparent-background-test-logo-concept-214578476.html">https://depositphotos.com/vector/test-vector-icon-isolated-transparent-background-test-logo-concept-214578476.html</a>. Accessed 1 Dec. 2024.</div>
@@ -13,6 +17,7 @@
                 </p>
             </section>
             <section class="citations">
+                <!-- Specifically Home Page Citations -->
                 <h3 class="citation-page">Home Page</h3>
                 <p>
                     <div class="csl-entry">“444,094 Crowd People Walking Royalty-Free Photos and Stock Images.” <i>Shutterstock</i>, <a href="https://www.shutterstock.com/search/crowd-people-walking">https://www.shutterstock.com/search/crowd-people-walking</a>. Accessed 1 Dec. 2024.</div>
@@ -25,6 +30,7 @@
             </section>
 
             <section class="citations">
+                <!-- Specifically Contrast Page Citations -->
                 <h3 class="citation-page">Contrast Page</h3>
                 <p>
                     <div class="csl-entry"><i>American-Green-Tree-Frog-768x566.Jpg (768×566)</i>. <a href="https://petsoid.com/wp-content/uploads/2020/02/american-green-tree-frog-768x566.jpg">https://petsoid.com/wp-content/uploads/2020/02/american-green-tree-frog-768x566.jpg</a>. Accessed 2 Dec. 2024.</div>
@@ -41,6 +47,7 @@
             </section>
 
             <section class="citations">
+                <!-- Specifically Repitition Page Citations -->
                 <h3 class="citation-page">Repetition Page</h3>
                 <p>
                     <div class="csl-entry"><i>C.R.A.P. DESIGN PRINCIPLES | Free Web Design Tutorial 2021 | Lesson 1</i>. Directed by Brad Hussey, 2021. <i>YouTube</i>, <a href="https://www.youtube.com/watch?v=Ox1iQ05FZ00">https://www.youtube.com/watch?v=Ox1iQ05FZ00</a>. Accessed content ranges from 8:00 to 14:10.</div>
@@ -51,6 +58,7 @@
             </section>
 
             <section class="citations">
+                <!-- Specifically Alignment Page Citations -->
                 <h3 class="citation-page">Alignment Page</h3>
                 <p>
                     <div class="csl-entry"><i>C.R.A.P. DESIGN PRINCIPLES | Free Web Design Tutorial 2021 | Lesson 1</i>. Directed by Brad Hussey, 2021. <i>YouTube</i>, <a href="https://www.youtube.com/watch?v=Ox1iQ05FZ00">https://www.youtube.com/watch?v=Ox1iQ05FZ00</a>. Accessed content ranges from 14:10 to 15:30.</div>
@@ -63,6 +71,7 @@
             </section>
 
             <section class="citations">
+                <!-- Specifically Proximity Page Citations -->
                 <h3 class="citation-page">Proximity Page</h3>
                 <p>
                     <div class="csl-entry"><i>Gestalt Principles of Design – Proximity - Christopher Butler</i>. <a href="https://www.chrbutler.com/gestalt-principles-of-design-proximity">https://www.chrbutler.com/gestalt-principles-of-design-proximity</a>. Accessed 2 Dec. 2024.</div>
@@ -77,6 +86,7 @@
             </section>
 
             <section class="citations">
+                <!-- Specifically Quiz Page Citations -->
                 <h3 class="citation-page">Quiz Page</h3>
                 <p>
                     <div class="csl-entry">“Design Principles: Visual Perception And The Principles Of Gestalt — Smashing Magazine | Figure-Ground, Harmony Design, Design Theory.” <i>Pinterest</i>, <a href="https://www.pinterest.com/pin/164522192611906851/">https://www.pinterest.com/pin/164522192611906851/</a>. Accessed 2 Dec. 2024.</div>
@@ -92,5 +102,6 @@
         </div>
     </main> 
 <?php
+     // Include the footer file
     include("../assets/inc/footer.inc.php");
 ?>
