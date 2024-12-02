@@ -167,21 +167,30 @@ body {
     color: white;
 }
 
-#al3 {
+.align-container {
+    width: 100%;
     display: flex;
-    position: relative;
+    justify-content: right;
+}
+
+.align-container p {
+    width: 70%;
+}
+#al3 {
+    /* display: flex;
+    position: relative; */
     justify-content: center;
 }
 
 #al2 {
-    display: flex;
-    position: relative;
+    /* display: flex;
+    position: relative; */
     justify-content: right;
 }
 
 #al1 {
-    display: flex;
-    position: relative;
+    /* display: flex;
+    position: relative; */
     justify-content: left;
 }
 

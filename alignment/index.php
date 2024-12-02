@@ -8,8 +8,10 @@
             <div class="column">
                 <section class="align-paragraph">
                     <h1>The CRAPsite | Alignment</h1>
-                    <p id="al1">Some generic text here about Alignment</p>
-                    <iframe  class = "paragraph-vid" width="560" height="315" src="https://www.youtube.com/embed/Ox1iQ05FZ00?si=2NcviHssQEYlOkj4&amp;start=850&end930=" 
+<div class="align-container"id="al1">
+                        <p  class="align-p">Alignment is used to set an invisible framework to create a sense of order within designs. Alignment creates meaningful and intentional relationships between elements to group them together and create visual connections. When elements are properly grouped, they allow the user to navigate the site and process information more easily. This can vary based on target audience, such as the difference between a desktop display and a mobile display, or even considering languages that read right-to-left instead of left-to-right. The power of alignment lies in its ability to create structure without drawing attention to itself; when done correctly, it creates a seamless experience that feels natural and intuitive to the user.</p>
+    
+</div>                    <iframe  class = "paragraph-vid" width="560" height="315" src="https://www.youtube.com/embed/Ox1iQ05FZ00?si=2NcviHssQEYlOkj4&amp;start=850&end930=" 
                         title="YouTube video player" frameborder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
@@ -17,15 +19,19 @@
                 </section>
 
                 <section class="align-paragraph">
-                    <h2 class="interaction-h2">A header</h2>
-                    <p id="al2">Some more text here about Alignment</p>
-                    <img src="../assets/images/alignment1.jpg" alt="Alignment example image" class="paragraph-img">
+                    <h2 class="interaction-h2">Edge Alignment vs. Center Alignment</h2>
+<div class="align-container"id="al2">
+                        <p  class="align-p">The choice between edge alignment and center alignment significantly impacts how users interact with content. Edge alignment, particularly left alignment, provides a strong vertical line that anchors the design and creates a natural starting point for the eye. This alignment style is particularly effective for longer text passages and content-heavy designs. Center alignment, while visually appealing for shorter pieces of text or decorative elements, can become problematic when overused, as it creates irregular starting points that can strain the reader's eye movement.</p>
+    
+</div>                    <img src="../assets/images/alignment1.jpg" alt="Alignment example image" class="paragraph-img">
                 </section>
 
                 <section class="align-paragraph">
-                    <h2 class="interaction-h2">A header</h2>
-                    <p id="al3">Some more text here about Alignment</p>
-                    <img src="../assets/images/alignment2.png" alt="Alignment example image" class="paragraph-img" id="slider-img">
+                    <h2 class="interaction-h2">Digital Alignment Considerations</h2>
+<div class="align-container"id="al3">
+                        <p class="align-p">In the digital realm, alignment takes on additional importance due to the responsive nature of modern designs. Websites and applications must maintain proper alignment across various screen sizes and devices, requiring careful consideration of how elements will reflow and reorganize themselves. This dynamic aspect of digital design necessitates a flexible approach to alignment that can adapt while maintaining the fundamental principles that make the design effective and engaging.</p>
+    
+</div>                    <img src="../assets/images/alignment2.png" alt="Alignment example image" class="paragraph-img" id="slider-img">
                 </section>
 
                 <!-- Paige, please try and get whatever content you write here split into 3 paragraphs (keep the containers below).
