@@ -32,9 +32,6 @@
                     <p class="contrast-p">Using different textures and styles is another way to add contrast. Bringing in a mix of fonts, background patterns, and adhering to a style guide helps unify a page. More modern designs will prefer smooth textures, sans-serif fonts, and left-aligned or generally off-center elements, while older web designs may use more textured images, serif or cursive fonts, and centered text. Keeping these elements of style and typography in mind when designing will help push your design into the era you are designing it for.</p>
                 </section>
 
-                <!-- Paige, please try and get whatever content you write here split into at least 4 or 5 paragraphs -->
-
-                 <!--Make sure content you write matches the graphics used-->
                  <img src="../assets/images/bad-contrast.jpg" alt="Flower with Bad Contrast" class="contrast-img" id="flower-big">
                  <img src="../assets/images/mid-contrast.png" alt="Cat with Mid Contrast" class="contrast-img" id="cat-big">
                  <img src="../assets/images/good-contrast.jpg" alt="Frog with Good Contrast" class="contrast-img" id="frog-big">
