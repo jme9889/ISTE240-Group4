@@ -9,6 +9,17 @@
                 <section class="paragraph">
                     <h1>The CRAPsite - Repetition</h1>
                     <p id="rep1">Some generic text here about Repetition</p>
+                    <iframe  
+                        class="paragraph-vid" 
+                        width="560" 
+                        height="315" 
+                        src="https://www.youtube.com/embed/Ox1iQ05FZ00?start=480&end=850" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" 
+                        allowfullscreen>
+                    </iframe>
                 </section>
 
                 <section class="paragraph">
@@ -39,15 +50,11 @@
                         <li>Stuff</li>
                         <li>Stuff</li>
                     </ul>
+                    <img src="../assets/images/repetition1.jpg" alt="Graphical Example of Repetition" class="paragraph-img">
                 </section>
 
                 <!-- Paige, please try and get whatever content you write here split into 3 paragraphs (keep the containers below).
                  Just copy/paste the paragraph section above, same kinda style as the homepage -->
-
-                 <!--Try and include 1 or 2 images/graphics from the ones Katiya had-->
-
-                <!--Two of the paragraphs have 2 lists (a ul and an ol). They user's gonna switch between the two, so make sure the two
-                in the same paragraph have the same content-->
             </div>
             
         </div>
